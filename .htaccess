@@ -1,0 +1,44 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+
+# Restrcting Admin panel access
+RewriteCond %{REQUEST_URI} ^(.*)?wp-login\.php(.*)$ [OR]
+RewriteCond %{REQUEST_URI} ^(.*)?wp-admin$
+RewriteCond %{REMOTE_ADDR} !^77\.96\.138\.140$
+RewriteCond %{REMOTE_ADDR} !^212\.69\.42\.56$
+RewriteCond %{REMOTE_ADDR} !^185\.250\.32\.4$
+RewriteCond %{REMOTE_ADDR} !^86\.14\.140\.169$
+RewriteRule ^(.*)$ - [R=403,L]
+
+</IfModule>
+# END WordPress
+
+<Files "wp-config.php">
+Require all denied
+</Files>
+
+# Prevent directory browsing
+Options All -Indexes
+
+# Protect htaccess
+<FilesMatch "^.*\.([Hh][Tt][Aa])">
+Require all denied
+</FilesMatch>
+
+# Block Includes
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+
