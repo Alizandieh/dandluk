@@ -1,7 +1,7 @@
 <?php
 // datastore=auditqueue;
 // created_on=1528644546;
-// updated_on=1571500443;
+// updated_on=1579793386;
 exit(0);
 ?>
 1528644546_865:"Warning: dandl_admin, 77.96.138.140; Plugin activated: Sucuri Security - Auditing, Malware Scanner and Hardening (v1.8.17; sucuri-scanner\/sucuri.php)"
@@ -1509,3 +1509,5 @@ exit(0);
 1563302074_505:"Notice: dandl_admin, 77.96.138.140; Post status has been changed; details: ID: 808,Old status: new,New status: auto-draft,Title: Auto Draft"
 1563961804_7794:"Warning: 212.71.235.58; Post deleted: (multiple entries): Post id: 808,Post author: 3,Post type: post,Post status: auto-draft,Post inserted: 2019-07-16 18:34:34,Post modified: 2019-07-16 18:34:34,Post guid: http:\/\/www.dandluk.com\/?p=808,Post title: Auto Draft"
 1569700532_1567:"Error: 185.177.154.150; User authentication failed: dandl_admin"
+1573767092_6531:"Error: 87.98.244.128; User authentication failed: dandl_admin"
+1578853225_1222:"Error: 77.96.138.140; User authentication failed: admin"
