@@ -1,0 +1,5391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kameleon\n"
+"POT-Creation-Date: 2016-03-29 01:07-0000\n"
+"PO-Revision-Date: 2016-03-29 01:07-0000\n"
+"Last-Translator: \n"
+"Language-Team: SayenThemes <sayen.themes@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_n;_x;_ex;esc_html__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/kameleon-core/js/jquery-ui.js:10
+msgid "'"
+msgstr ""
+
+#: 404.php:14
+msgid "PAGE NOT FOUND."
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:72
+#: admin/extern-classes/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:73
+#: admin/extern-classes/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:74
+#: admin/extern-classes/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:75
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:86
+#: admin/extern-classes/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:87
+#: admin/extern-classes/class-tgm-plugin-activation.php:177
+#: admin/extern-classes/class-tgm-plugin-activation.php:1956
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: admin/extern-classes/activate-plugins.php:88
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:178
+#: admin/extern-classes/class-tgm-plugin-activation.php:1644
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:532
+#: admin/extern-classes/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1167
+#: admin/extern-classes/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1170
+#: admin/extern-classes/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1288
+#: admin/extern-classes/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1312
+#: admin/extern-classes/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1391
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:350
+msgid "Status"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2070
+#: admin/extern-classes/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2070
+#: admin/extern-classes/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: admin/extern-classes/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:103
+msgid "Skill Bar"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:106
+msgid "A percentage bar defining a person skill with load effect"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:112
+#: admin/kameleon-core/assets/composer/sy-composer.php:114
+msgid "Skill Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:120
+msgid "Skill Value (%)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:127
+msgid "Bar Height"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:133
+msgid "Bar Background Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:140
+msgid "Bar Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:146
+msgid "Skill Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:153
+msgid "Bar Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:156
+#: admin/kameleon-core/assets/composer/sy-composer.php:520
+#: admin/kameleon-core/assets/composer/sy-composer.php:638
+#: admin/kameleon-core/assets/composer/sy-composer.php:1162
+#: admin/kameleon-core/assets/composer/sy-composer.php:1397
+msgid "Style 1"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:157
+#: admin/kameleon-core/assets/composer/sy-composer.php:521
+#: admin/kameleon-core/assets/composer/sy-composer.php:639
+#: admin/kameleon-core/assets/composer/sy-composer.php:1163
+#: admin/kameleon-core/assets/composer/sy-composer.php:1398
+msgid "Style 2"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:158
+#: admin/kameleon-core/assets/composer/sy-composer.php:522
+#: admin/kameleon-core/assets/composer/sy-composer.php:640
+#: admin/kameleon-core/assets/composer/sy-composer.php:1164
+msgid "Style 3"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:163
+msgid "Bar Strips"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:166
+#: admin/kameleon-core/assets/composer/sy-composer.php:1637
+#: admin/kameleon-core/assets/composer/sy-composer.php:1643
+#: admin/kameleon-core/assets/composer/sy-composer.php:1649
+msgid "None"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:167
+msgid "Normal Strips"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:168
+msgid "Moving Strips"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:173
+msgid "Bar Border Radius"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:194
+msgid "Alert Box"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:197
+msgid "Text alert box representing a type of message"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:203
+msgid "Alert Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:205
+#: admin/kameleon-core/assets/composer/sy-composer.php:592
+#: admin/kameleon-core/assets/composer/sy-composer.php:725
+#: admin/kameleon-core/assets/composer/sy-composer.php:914
+#: admin/kameleon-core/assets/composer/sy-composer.php:1327
+#: admin/kameleon-core/assets/composer/sy-composer.php:1495
+#: admin/kameleon-core/assets/composer/sy-composer.php:1616
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:145
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:212
+msgid "Alert Message"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:214
+msgid "Message"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:220
+msgid "Select Icon "
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:224
+msgid ""
+"Click and select icon of your choice. If you can't find the one that suits "
+"for your purpose"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:224
+msgid "you can"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:224
+msgid "add new here"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:229
+#: admin/kameleon-core/assets/composer/sy-composer.php:325
+#: admin/kameleon-core/assets/composer/sy-composer.php:402
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:121
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:94
+#: admin/kameleon-core/options/sayen-options.php:605
+#: admin/kameleon-core/options/sayen-options.php:615
+#: admin/kameleon-core/options/sayen-options.php:903
+#: admin/kameleon-core/options/sayen-options.php:913
+#: admin/kameleon-core/options/sayen-options.php:1194
+#: admin/kameleon-core/options/sayen-options.php:1204
+#: admin/kameleon-core/options/sayen-options.php:1485
+#: admin/kameleon-core/options/sayen-options.php:1495
+#: admin/kameleon-core/options/sayen-options.php:1706
+#: admin/kameleon-core/options/sayen-options.php:1972
+msgid "Text Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:238
+msgid "Box Background Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:246
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:134
+msgid "Border Thickness"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:254
+#: admin/kameleon-core/assets/composer/sy-composer.php:356
+#: admin/kameleon-core/assets/composer/sy-composer.php:1073
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:82
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:125
+#: admin/kameleon-core/options/sayen-options.php:2129
+#: admin/kameleon-core/options/sayen-options.php:3002
+msgid "Border Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:262
+msgid "Border Radius (px)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:270
+#: admin/kameleon-core/assets/composer/sy-composer.php:445
+#: admin/kameleon-core/assets/composer/sy-composer.php:983
+msgid "Margin Top"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:278
+#: admin/kameleon-core/assets/composer/sy-composer.php:453
+#: admin/kameleon-core/assets/composer/sy-composer.php:990
+msgid "Margin Bottom"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:297
+msgid "Modal Window"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:299
+msgid "A hidden window triggered when clicking a button!"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:305
+msgid "Button Text"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:307
+msgid "Open Modal"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:313
+msgid "Button Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:316
+#: admin/kameleon-core/assets/composer/sy-composer.php:761
+#: admin/kameleon-core/assets/composer/sy-composer.php:887
+msgid "Normal"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:317
+msgid "Small"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:318
+msgid "Big"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:332
+#: admin/kameleon-core/assets/composer/sy-composer.php:968
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:110
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:69
+#: admin/kameleon-core/options/sayen-options.php:624
+#: admin/kameleon-core/options/sayen-options.php:922
+#: admin/kameleon-core/options/sayen-options.php:1213
+#: admin/kameleon-core/options/sayen-options.php:1504
+#: admin/kameleon-core/options/sayen-options.php:1698
+#: admin/kameleon-core/options/sayen-options.php:1964
+#: admin/kameleon-core/options/sayen-options.php:2121
+#: admin/kameleon-core/options/sayen-options.php:2345
+msgid "Background Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:340
+msgid "Font Size (px)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:348
+msgid "Border Thickness (px)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:364
+#: admin/kameleon-core/options/sayen-options.php:2469
+msgid "Button Position"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:367
+#: admin/kameleon-core/assets/composer/sy-composer.php:900
+#: admin/kameleon-core/assets/composer/sy-composer.php:1092
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/border/field_border.php:159
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:368
+#: admin/kameleon-core/assets/composer/sy-composer.php:1091
+msgid "Center"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:369
+#: admin/kameleon-core/assets/composer/sy-composer.php:901
+#: admin/kameleon-core/assets/composer/sy-composer.php:1093
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/border/field_border.php:145
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:376
+#: admin/kameleon-core/assets/composer/sy-composer.php:378
+msgid "Window Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:385
+#: admin/kameleon-core/assets/composer/sy-composer.php:781
+#: admin/kameleon-core/assets/composer/sy-composer.php:920
+msgid "Content"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:394
+msgid "Backgound Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:410
+msgid "Modal Window Effect"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:413
+msgid "Fade in & Scale"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:414
+msgid "Slide in (right)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:415
+msgid "Slide in (bottom)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:416
+msgid "Newspaper"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:417
+msgid "Fall"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:418
+msgid "Side Fall"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:419
+msgid "Sticky Up"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:420
+msgid "3D Flip (horizontal)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:421
+msgid "3D Flip (vertical)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:422
+msgid "3D Sign"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:423
+msgid "Super Scaled"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:424
+msgid "Just Me"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:425
+msgid "3D Slit"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:426
+msgid "3D Rotate Bottom"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:427
+msgid "3D Rotate In Left"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:428
+msgid "Blur"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:429
+msgid "Let me in"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:430
+msgid "Make way!"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:431
+msgid "Slip from top"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:437
+msgid "Close Button Text"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:439
+msgid "Close Me !"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:461
+msgid "Margin Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:469
+msgid "Margin Left"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:493
+msgid "Post Masonry"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:495
+msgid "Blog Posts list in Masonry Layout with 15 Hover effect style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:500
+msgid "Post Mansory Type"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:503
+#: admin/kameleon-core/assets/composer/sy-composer.php:622
+#: admin/kameleon-core/assets/composer/sy-composer.php:1121
+#: admin/kameleon-core/assets/composer/sy-composer.php:1356
+#: admin/kameleon-core/assets/composer/sy-composer.php:1526
+msgid "List"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:504
+#: admin/kameleon-core/assets/composer/sy-composer.php:623
+#: admin/kameleon-core/assets/composer/sy-composer.php:1122
+#: admin/kameleon-core/assets/composer/sy-composer.php:1357
+#: admin/kameleon-core/assets/composer/sy-composer.php:1527
+msgid "Single"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:509
+#: admin/kameleon-core/assets/composer/sy-composer.php:1127
+msgid "Search Post By Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:517
+msgid "Post Display Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:523
+#: admin/kameleon-core/assets/composer/sy-composer.php:641
+#: admin/kameleon-core/assets/composer/sy-composer.php:1165
+msgid "Style 4"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:524
+#: admin/kameleon-core/assets/composer/sy-composer.php:642
+msgid "Style 5"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:525
+#: admin/kameleon-core/assets/composer/sy-composer.php:643
+msgid "Style 6"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:526
+#: admin/kameleon-core/assets/composer/sy-composer.php:644
+msgid "Style 7"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:527
+#: admin/kameleon-core/assets/composer/sy-composer.php:645
+msgid "Style 8"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:528
+#: admin/kameleon-core/assets/composer/sy-composer.php:646
+msgid "Style 9"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:529
+#: admin/kameleon-core/assets/composer/sy-composer.php:647
+msgid "Style 10"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:530
+#: admin/kameleon-core/assets/composer/sy-composer.php:648
+msgid "Style 11"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:531
+#: admin/kameleon-core/assets/composer/sy-composer.php:649
+msgid "Style 12"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:532
+#: admin/kameleon-core/assets/composer/sy-composer.php:650
+msgid "Style 13"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:533
+#: admin/kameleon-core/assets/composer/sy-composer.php:651
+msgid "Style 14"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:534
+#: admin/kameleon-core/assets/composer/sy-composer.php:652
+msgid "Style 15"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:540
+#: admin/kameleon-core/assets/composer/sy-composer.php:658
+#: admin/kameleon-core/assets/composer/sy-composer.php:1143
+#: admin/kameleon-core/assets/composer/sy-composer.php:1378
+#: admin/kameleon-core/assets/composer/sy-composer.php:1549
+msgid "Columns Number"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:544
+#: admin/kameleon-core/assets/composer/sy-composer.php:661
+#: admin/kameleon-core/assets/composer/sy-composer.php:1148
+#: admin/kameleon-core/assets/composer/sy-composer.php:1383
+#: admin/kameleon-core/assets/composer/sy-composer.php:1554
+msgid "4 Columns"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:545
+#: admin/kameleon-core/assets/composer/sy-composer.php:662
+#: admin/kameleon-core/assets/composer/sy-composer.php:1149
+#: admin/kameleon-core/assets/composer/sy-composer.php:1384
+#: admin/kameleon-core/assets/composer/sy-composer.php:1555
+msgid "1 Column"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:546
+#: admin/kameleon-core/assets/composer/sy-composer.php:663
+#: admin/kameleon-core/assets/composer/sy-composer.php:1150
+#: admin/kameleon-core/assets/composer/sy-composer.php:1385
+#: admin/kameleon-core/assets/composer/sy-composer.php:1556
+msgid "2 Columns"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:547
+#: admin/kameleon-core/assets/composer/sy-composer.php:664
+#: admin/kameleon-core/assets/composer/sy-composer.php:1151
+#: admin/kameleon-core/assets/composer/sy-composer.php:1386
+#: admin/kameleon-core/assets/composer/sy-composer.php:1557
+msgid "3 Columns"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:548
+#: admin/kameleon-core/assets/composer/sy-composer.php:665
+#: admin/kameleon-core/assets/composer/sy-composer.php:1152
+#: admin/kameleon-core/assets/composer/sy-composer.php:1387
+#: admin/kameleon-core/assets/composer/sy-composer.php:1558
+msgid "5 Columns"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:554
+#: admin/kameleon-core/assets/composer/sy-composer.php:1135
+msgid "Number of Posts to Show"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:561
+#: admin/kameleon-core/assets/composer/sy-composer.php:693
+#: admin/kameleon-core/assets/composer/sy-composer.php:1198
+#: admin/kameleon-core/assets/composer/sy-composer.php:1404
+#: admin/kameleon-core/assets/composer/sy-composer.php:1564
+msgid "Enable Gutter"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:564
+#: admin/kameleon-core/assets/composer/sy-composer.php:685
+#: admin/kameleon-core/assets/composer/sy-composer.php:696
+#: admin/kameleon-core/assets/composer/sy-composer.php:1203
+#: admin/kameleon-core/assets/composer/sy-composer.php:1409
+#: admin/kameleon-core/assets/composer/sy-composer.php:1569
+msgid "No"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:565
+#: admin/kameleon-core/assets/composer/sy-composer.php:684
+#: admin/kameleon-core/assets/composer/sy-composer.php:697
+#: admin/kameleon-core/assets/composer/sy-composer.php:1202
+#: admin/kameleon-core/assets/composer/sy-composer.php:1408
+#: admin/kameleon-core/assets/composer/sy-composer.php:1568
+msgid "Yes"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:571
+#: admin/kameleon-core/assets/composer/sy-composer.php:704
+#: admin/kameleon-core/assets/composer/sy-composer.php:1306
+#: admin/kameleon-core/assets/composer/sy-composer.php:1474
+#: admin/kameleon-core/assets/composer/sy-composer.php:1595
+msgid "Sort Order : "
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:577
+#: admin/kameleon-core/assets/composer/sy-composer.php:710
+#: admin/kameleon-core/assets/composer/sy-composer.php:1312
+#: admin/kameleon-core/assets/composer/sy-composer.php:1480
+#: admin/kameleon-core/assets/composer/sy-composer.php:1601
+msgid "Descending"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:578
+#: admin/kameleon-core/assets/composer/sy-composer.php:711
+#: admin/kameleon-core/assets/composer/sy-composer.php:1313
+#: admin/kameleon-core/assets/composer/sy-composer.php:1481
+#: admin/kameleon-core/assets/composer/sy-composer.php:1602
+msgid "Ascending"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:584
+#: admin/kameleon-core/assets/composer/sy-composer.php:717
+#: admin/kameleon-core/assets/composer/sy-composer.php:1319
+#: admin/kameleon-core/assets/composer/sy-composer.php:1487
+#: admin/kameleon-core/assets/composer/sy-composer.php:1608
+msgid "Order by"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:589
+#: admin/kameleon-core/assets/composer/sy-composer.php:722
+#: admin/kameleon-core/assets/composer/sy-composer.php:1324
+#: admin/kameleon-core/assets/composer/sy-composer.php:1492
+#: admin/kameleon-core/assets/composer/sy-composer.php:1613
+msgid "Date"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:590
+#: admin/kameleon-core/assets/composer/sy-composer.php:723
+#: admin/kameleon-core/assets/composer/sy-composer.php:1325
+msgid "Order by post ID"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:591
+#: admin/kameleon-core/assets/composer/sy-composer.php:724
+#: admin/kameleon-core/assets/composer/sy-composer.php:1326
+#: admin/kameleon-core/assets/composer/sy-composer.php:1494
+#: admin/kameleon-core/assets/composer/sy-composer.php:1615
+msgid "Author"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:593
+#: admin/kameleon-core/assets/composer/sy-composer.php:726
+#: admin/kameleon-core/assets/composer/sy-composer.php:1328
+#: admin/kameleon-core/assets/composer/sy-composer.php:1496
+#: admin/kameleon-core/assets/composer/sy-composer.php:1617
+msgid "Number of comments"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:612
+msgid "Portfolio Masonry"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:613
+msgid "Portfolios list in Masonry Layout with 15 Hover effect style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:619
+msgid "Portfolio Mansory Type"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:628
+msgid "Search Portfolio By Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:635
+msgid "Portfolio Display Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:672
+msgid "Number of Portfolio Projects to Show"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:681
+msgid "Enable Portfolio Filter"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:744
+msgid "Team Mate"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:746
+msgid "Information module about a teammate"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:752
+msgid "Picture"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:758
+#: admin/kameleon-core/assets/composer/sy-composer.php:884
+msgid "Style "
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:762
+msgid "With Hover"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:769
+#: admin/kameleon-core/assets/composer/sy-composer.php:908
+msgid "Name"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:775
+msgid "Team mate Title"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:788
+msgid "Link Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:794
+msgid "Facebook Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:800
+msgid "Twitter Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:806
+msgid "Google+ Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:812
+msgid "Linkedin Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:818
+msgid "Github Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:824
+msgid "Instagram Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:831
+#: admin/kameleon-core/assets/composer/sy-composer.php:929
+msgid "Name Font Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:837
+#: admin/kameleon-core/assets/composer/sy-composer.php:935
+msgid "Name Text Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:844
+#: admin/kameleon-core/assets/composer/sy-composer.php:942
+msgid "Title Font Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:850
+#: admin/kameleon-core/assets/composer/sy-composer.php:948
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:132
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:152
+#: admin/kameleon-core/options/sayen-options.php:3026
+#: admin/kameleon-core/options/sayen-options.php:3044
+msgid "Title Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:869
+msgid "Testimonial"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:871
+msgid "Testimonial area with different layout and design"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:877
+msgid "Thumbnail"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:888
+msgid "Bubble"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:889
+msgid "Modern"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:896
+msgid "Thumbnail Position"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:897
+#: admin/kameleon-core/assets/composer/sy-composer.php:976
+msgid "Only for style Modern & Bubble "
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:956
+#: admin/kameleon-core/assets/composer/sy-composer.php:1047
+msgid "Content Font Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:962
+msgid "Content Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:975
+#: admin/kameleon-core/options/sayen-options.php:2224
+msgid "Content Background"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1015
+msgid "Radial Progress"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1017
+msgid "A Percentage radial progress with percentage animation"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1025
+msgid "Percentage Value"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1032
+msgid "Content Background Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1039
+msgid "Content Font Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1056
+msgid "Circle Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1065
+msgid "Circle Border Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1081
+msgid "Progress Border Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1087
+msgid "Alignement "
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1110
+msgid "Post Grid"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1112
+msgid "Blog Posts list in a grid layout"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1117
+msgid "Post Grid Type"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1158
+msgid "Post Grid Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1171
+msgid "Padding Left & Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1180
+msgid "Padding Top & Bottom"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1189
+msgid "Image Avatar Radius"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1209
+msgid "Excerpt Char Number"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1217
+msgid "Border Radius"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1229
+msgid "Post Background Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1237
+msgid "Post Container Border Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1243
+msgid "Post Container Border Thickness"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1256
+msgid "Post Border Inside Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1262
+msgid "Post Border Inside Thickness"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1273
+msgid "Post Title Font Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1283
+msgid "Post Title Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1289
+msgid "Excerpt Font Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1299
+msgid "Excerpt Font Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1345
+msgid "Woo Modern Products"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1347
+msgid "WooCommerce Product items in modern design with cool effects"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1352
+#: admin/kameleon-core/assets/composer/sy-composer.php:1522
+msgid "Products Type"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1362
+#: admin/kameleon-core/assets/composer/sy-composer.php:1532
+msgid "Search Product By Name"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1370
+#: admin/kameleon-core/assets/composer/sy-composer.php:1540
+msgid "Number of Products to Show"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1393
+msgid "Product Design Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1417
+msgid "Hover Overlay Background"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1423
+msgid "Title Font Size (px)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1433
+msgid "Title Font Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1439
+msgid "SubTitle Font Size (px)"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1449
+msgid "SubTitle Font Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1455
+msgid "Price Font Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1465
+msgid "Hover Border Color Effect"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1493
+#: admin/kameleon-core/assets/composer/sy-composer.php:1614
+msgid "Order by product ID"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1515
+msgid "Woo Products List"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1517
+msgid "WooCommerce Product items list"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1578
+#: admin/kameleon-core/options/sayen-options.php:123
+msgid "Color Scheme"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1586
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1638
+msgid "Remove Padding Left"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1639
+msgid "Remove Padding Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1640
+msgid "Remove Padding Left & Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1644
+msgid "Remove Margin Left"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1645
+msgid "Remove Margin Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1646
+msgid "Remove Margin Left & Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1650
+msgid "Remove Border Left"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1651
+msgid "Remove Border Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1652
+msgid "Remove Border Left & Right"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1658
+msgid "Responsive Paddings Action"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1665
+msgid "Responsive Margins Action"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/sy-composer.php:1672
+msgid "Responsive Borders Action"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/vc_templates/sy_portfoliomasonry.php:94
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/border/field_border.php:125
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:191
+#: templates/portfolio/portfolio-filter-full.php:6
+#: templates/portfolio/portfolio-filter.php:5
+msgid "All"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/vc_templates/sy_postgrid.php:80
+#: admin/kameleon-core/assets/composer/vc_templates/sy_postgrid.php:100
+msgid "By "
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/vc_templates/sy_wooitemlist.php:55
+msgid "SALE!"
+msgstr ""
+
+#: admin/kameleon-core/assets/composer/vc_templates/sy_wooitemmodern.php:62
+msgid "Add to Cart"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:74
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:78
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:111
+msgid "Move up"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:124
+msgid "Move down"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:126
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:128
+msgid "Edit Menu Item"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:138
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:153
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:147
+msgid "Navigation Label"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:153
+msgid "Title Attribute"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:160
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:165
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:171
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:177
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:149
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:179
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:187
+msgid "Mega Menu"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:198
+msgid "Show Mega Menu Column Title "
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:211
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:224
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:321
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/media/field_media.php:205
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:133
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: admin/kameleon-core/assets/menu/Kameleon-menu-edit.php:225
+msgid "Cancel"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/fields/background.php:114
+#: admin/kameleon-core/assets/metaboxes/fields/uploader.php:27
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:314
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/media/field_media.php:198
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:126
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/kameleon-metaboxes.php:10
+#: admin/kameleon-core/assets/metaboxes/kameleon-metaboxes.php:18
+#: admin/kameleon-core/assets/metaboxes/kameleon-metaboxes.php:26
+#: admin/kameleon-core/assets/metaboxes/kameleon-metaboxes.php:34
+msgid "Kameleon Options"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:8
+#: admin/kameleon-core/options/sayen-options.php:3509
+msgid "Enable Footer"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:11
+msgid "Enable Footer for this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:27
+msgid "Enable Footer Effect"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:30
+#: admin/kameleon-core/options/sayen-options.php:3531
+msgid "Creates a like parallax for the footer area."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:49
+msgid "Footer Width"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:50
+msgid "Footer width layout!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:61
+#: admin/kameleon-core/options/sayen-options.php:2337
+msgid "Enable Page Pre-Loader"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:64
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:82
+msgid "Enable Page Pre-Loader for this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:79
+msgid "Enable Top Sliding Bar"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:104
+msgid "Enable Slider"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:107
+msgid "Enable Slider for this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:125
+msgid "Choose Slider"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:126
+msgid "Choose a revolution Slider"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:135
+msgid "Slider Above Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/configuration-meta.php:138
+msgid "Slider above Header!."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:12
+msgid "Unique Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:15
+msgid "Apply a unique header style on this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:31
+msgid "One Page Menu"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:34
+msgid "Apply One Page Menu."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:50
+msgid "Enable Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:53
+msgid "Enable Header On This Page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:70
+msgid "Fixed Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:73
+msgid "Choose if the header is fixed from the begining."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:91
+#: admin/kameleon-core/options/sayen-options.php:573
+#: admin/kameleon-core/options/sayen-options.php:872
+#: admin/kameleon-core/options/sayen-options.php:1162
+#: admin/kameleon-core/options/sayen-options.php:1453
+msgid "Header Width"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:92
+msgid "Header width layout!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:108
+msgid "Header Version"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:109
+msgid ""
+"You have 7 header choices. Choose the one that pleases you the most. You can "
+"change on every page you want!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:125
+msgid ""
+"The style will be applied only if you choose the header version 1, 2, 3, & "
+"4! "
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:134
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:53
+#: admin/kameleon-core/options/sayen-options.php:1790
+#: admin/kameleon-core/options/sayen-options.php:2056
+#: admin/kameleon-core/options/sayen-options.php:2674
+msgid "Logo Type"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:135
+#: admin/kameleon-core/options/sayen-options.php:519
+#: admin/kameleon-core/options/sayen-options.php:818
+#: admin/kameleon-core/options/sayen-options.php:1108
+#: admin/kameleon-core/options/sayen-options.php:1399
+msgid "Choose what logo to apply for this header!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:150
+msgid "Header Background Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:151
+msgid "Header Background Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:161
+#: admin/kameleon-core/options/sayen-options.php:663
+#: admin/kameleon-core/options/sayen-options.php:961
+#: admin/kameleon-core/options/sayen-options.php:1252
+#: admin/kameleon-core/options/sayen-options.php:1543
+msgid "Header Border Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:162
+msgid "Color fo the header border."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:172
+msgid "Header Text Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:173
+msgid "Color fo the header text."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:182
+#: admin/kameleon-core/options/sayen-options.php:2742
+msgid "Enable Top Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:185
+msgid "Enable the top header information on this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:201
+msgid "Unique Top Header Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:204
+msgid "Apply unique style for the top header area."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:222
+msgid "Top Header Background"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:223
+msgid "Top header background."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:234
+msgid "Header Top Text Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:235
+msgid "Color fo the top header text."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:245
+msgid "Icon Background"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:246
+msgid "Top header area icon background color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:256
+#: admin/kameleon-core/options/sayen-options.php:450
+#: admin/kameleon-core/options/sayen-options.php:751
+#: admin/kameleon-core/options/sayen-options.php:1049
+#: admin/kameleon-core/options/sayen-options.php:1332
+#: admin/kameleon-core/options/sayen-options.php:1623
+msgid "Icon Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/header-meta.php:257
+msgid "Top header area icon color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:13
+msgid "Page Intro is a full width image with sliding effect! Try it Now"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:20
+msgid "Enable Page Intro"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:23
+msgid "Enable page image intro."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:41
+msgid "Intro Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:42
+msgid "Apply the intro style effect"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:55
+msgid "Use Featured Image"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:58
+msgid "Use this page / post featured image as background image intro."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:77
+msgid "Intro Backgound Image"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:78
+msgid "Upload the inro image (only works if featured image is OFF)"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:88
+msgid "Intro Text Position"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:89
+msgid "The position of the inrto text"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:109
+msgid "Intro Text"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/intro-meta.php:110
+msgid "Write some text for the intro area"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:12
+msgid "Unique Layout"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:15
+msgid "Unique layout on this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:33
+msgid "Page Layout"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:34
+msgid "Choose the page layout!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:46
+#: admin/kameleon-core/options/sayen-options.php:2241
+msgid "Content 100% Width"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:49
+#, php-format
+msgid "Enable 100% content width for layout."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:65
+#: admin/kameleon-core/options/sayen-options.php:2284
+msgid "Container Background"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:66
+#: admin/kameleon-core/options/sayen-options.php:2285
+msgid "Apply background for the boxed Layout"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:84
+#: admin/kameleon-core/options/sayen-options.php:2301
+msgid "Boxed Layout Margin"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:85
+msgid "Apply a Top & Bottom margins for the boxed layout."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:101
+#: admin/kameleon-core/options/sayen-options.php:2313
+msgid "Boxed Layout Border"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/layout-meta.php:102
+msgid "Apply border for the boxed layout!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:12
+msgid "Enable Visual Composer Content"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:13
+msgid "Check ON if you are adding content using Visual Composer Builder."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:30
+msgid "Enable Portfolio Information area"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:31
+msgid "You can choose to hide the information hidden."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:50
+msgid "Portfolio Information Position"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:51
+msgid "Choose where to put the portfolio information"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:66
+#: single-portfolio.php:72
+msgid "Project Link"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:77
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:78
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:88
+msgid "Portfolio Gallery Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:89
+msgid "Choose A Style to be applied for the gallery"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:106
+msgid "Client Name"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:107
+msgid "If more than one separate by coma (,)"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:118
+msgid "Portfolio Embed Video"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:119
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:46
+msgid "External hosted video (Youtube/Vimeo...) Embed code"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:129
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:130
+msgid "Choose portfolio item size"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:143
+msgid "Enable Next/Previous Project"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:162
+#: admin/kameleon-core/options/sayen-options.php:2872
+msgid "Enable Social Share"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:165
+msgid "Enable social share."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:181
+msgid "Enable Relared Projects"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/portfolio-meta.php:184
+msgid "Enable related projects."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:13
+msgid "For Video Post Format"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:23
+msgid "Self Hosted MP4"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:24
+msgid "Self hosted mp4 video format"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:34
+msgid "Self Hosted WebM"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:35
+msgid "Self hosted webm video format"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:45
+msgid "External Embed Video"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:54
+msgid "For Audio Post Format"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:63
+msgid "Self Hosted Audidp MP3"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:64
+msgid "Self hosted mp3 audio format"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:74
+msgid "External Embed Audio"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:75
+msgid "External hosted audio (SoundCloud) Embed code"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:83
+msgid "For Quote Post Format"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:92
+msgid "Quote Athor Name"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:101
+msgid "Enable Previous/Next Button"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:120
+msgid "Enable About Author area"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:139
+msgid "Enable Social Share links"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:158
+msgid "Enable Related posts"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/post-meta.php:179
+msgid "Choose Comment Layout"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:21
+msgid "Enable Sidebar"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:24
+msgid "Enable SideBar on this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:45
+msgid "Sidebar"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:46
+msgid "Choose the sidebar for this page"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:58
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:59
+msgid "If you have enabled the sidebar choose a position for it!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:71
+msgid "Sidebar Unique Styling"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:74
+msgid "Have unique styling for the Sidebar in this page!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:89
+msgid "Enable Full Height"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:92
+msgid "Enable full page height sidebar."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:111
+msgid "Sidebar Background Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:122
+msgid "Sidebar Text Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:133
+msgid "Sidebar Title Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:144
+msgid "Sidebar Margins"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:145
+msgid "Apply Top / Bottom Margins!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:161
+msgid "Sidebar Paddings"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:163
+msgid "Apply Paddings!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:182
+msgid "Sidebar Borders"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/sidebar-meta.php:183
+msgid "Apply Sidebar borders!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:13
+msgid "Unique Sticky Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:16
+msgid "On / to apply the bottom style for this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:32
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:35
+msgid "Enable Sticky Header."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:54
+msgid "Choose what logo to apply for this sticky header!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:70
+msgid "Sticky header Background Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:83
+msgid "Sticky header Border Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/stickyheader-meta.php:95
+msgid "Sticky header Text Color."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:13
+msgid "Enable Page Title Bar"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:16
+msgid "Enable Titlebar on this page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:32
+msgid "Unique Titlebar Style"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:35
+msgid "Set unique Style for Titlebar in This page."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:50
+#: admin/kameleon-core/options/sayen-options.php:3010
+msgid "Show Page Path"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:53
+msgid "Show the path of the actual page on the titlebar."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:72
+msgid "Titlebar style"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:73
+msgid "Choose a style for the titlebar page!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:87
+msgid "Titlebar Background"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:88
+msgid "Titlebar Background!"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:106
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:178
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:107
+msgid "Height (px)."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:126
+msgid "Color fo the page title border."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:135
+msgid "Border Thickness (px)."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:153
+msgid "Color fo the page title."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:161
+msgid "Title Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:162
+msgid "Title Size(px)."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:179
+msgid "Path Color"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:180
+msgid "Color fo the page path."
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:188
+msgid "Path Size"
+msgstr ""
+
+#: admin/kameleon-core/assets/metaboxes/templates/titlebar-meta.php:189
+msgid "Path Size(px)."
+msgstr ""
+
+#: admin/kameleon-core/assets/widgets/recent-portfolio.php:10
+msgid "Kameleon Recent Work"
+msgstr ""
+
+#: admin/kameleon-core/assets/widgets/recent-portfolio.php:10
+msgid "Display recent work (portfolio) with thumbnails"
+msgstr ""
+
+#: admin/kameleon-core/assets/widgets/recent-posts.php:10
+msgid "Kameleon Recent Posts"
+msgstr ""
+
+#: admin/kameleon-core/assets/widgets/recent-posts.php:10
+msgid "Display recent posts with thumbnails"
+msgstr ""
+
+#: admin/kameleon-core/assets/widgets/social-links.php:10
+msgid "Kameleon Social Links"
+msgstr ""
+
+#: admin/kameleon-core/assets/widgets/social-links.php:10
+msgid "Display list of social network links"
+msgstr ""
+
+#: admin/kameleon-core/core.php:150
+msgid "Sidebar 1"
+msgstr ""
+
+#: admin/kameleon-core/core.php:152
+msgid "Kameleon main sidebar 1"
+msgstr ""
+
+#: admin/kameleon-core/core.php:163
+msgid "Contact Sidebar"
+msgstr ""
+
+#: admin/kameleon-core/core.php:165
+msgid "Kameleon sidebar for Contact us template number 2"
+msgstr ""
+
+#: admin/kameleon-core/core.php:176
+msgid "Footer Column 1"
+msgstr ""
+
+#: admin/kameleon-core/core.php:178
+msgid "Kameleon footer Column 1 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:189
+msgid "Footer Column 2"
+msgstr ""
+
+#: admin/kameleon-core/core.php:191
+msgid "Kameleon footer Column 2 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:202
+msgid "Footer Column 3"
+msgstr ""
+
+#: admin/kameleon-core/core.php:204
+msgid "Kameleon footer Column 3 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:216
+msgid "Footer Column 4"
+msgstr ""
+
+#: admin/kameleon-core/core.php:218
+msgid "Kameleon footer Column 4 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:228
+msgid "Sliding Bar Column 1"
+msgstr ""
+
+#: admin/kameleon-core/core.php:230
+msgid "Kameleon Sliding Bar Column 1 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:241
+msgid "Sliding Bar Column 2"
+msgstr ""
+
+#: admin/kameleon-core/core.php:243
+msgid "Kameleon Sliding Bar Column 2 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:254
+msgid "Sliding Bar Column 3"
+msgstr ""
+
+#: admin/kameleon-core/core.php:256
+msgid "Kameleon Sliding Bar Column 3 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:267
+msgid "Sliding Bar Column 4"
+msgstr ""
+
+#: admin/kameleon-core/core.php:269
+msgid "Kameleon Sliding Bar Column 4 area"
+msgstr ""
+
+#: admin/kameleon-core/core.php:280 templates/titlebar/wrapper.php:60
+msgid "Shop"
+msgstr ""
+
+#: admin/kameleon-core/core.php:282 admin/kameleon-core/core.php:295
+msgid "Kameleon main shop page sidebar"
+msgstr ""
+
+#: admin/kameleon-core/core.php:293
+msgid "Shop Single "
+msgstr ""
+
+#: admin/kameleon-core/core.php:306
+msgid "BBpress Forum "
+msgstr ""
+
+#: admin/kameleon-core/core.php:308
+msgid "BBpress Forum sidebar"
+msgstr ""
+
+#: admin/kameleon-core/core.php:336 admin/kameleon-core/core.php:337
+msgid "&larr;"
+msgstr ""
+
+#: admin/kameleon-core/core.php:345 admin/kameleon-core/core.php:346
+msgid "&rarr;"
+msgstr ""
+
+#: admin/kameleon-core/core.php:366
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:98
+msgid "Share on Facebook"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:104
+msgid "Share on Twitter"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:110
+msgid "Share on Google+"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:116
+msgid "Share on Linkedin"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:122
+msgid "Share on Pinterest"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:128
+msgid "Share on Reddit"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:155
+#: admin/kameleon-core/functions/post-functions.php:249
+#, php-format
+msgid "%1$s "
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:157
+#: admin/kameleon-core/functions/post-functions.php:188
+#: admin/kameleon-core/functions/post-functions.php:219
+#: admin/kameleon-core/functions/post-functions.php:251
+#: admin/kameleon-core/functions/post-functions.php:284
+msgid "Edit "
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:163
+#: admin/kameleon-core/functions/post-functions.php:194
+#: admin/kameleon-core/functions/post-functions.php:225
+#: admin/kameleon-core/functions/post-functions.php:258
+#: admin/kameleon-core/functions/post-functions.php:290
+msgid "This Comment is Awaiting Moderation."
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:186
+#: admin/kameleon-core/functions/post-functions.php:217
+#: admin/kameleon-core/functions/post-functions.php:282
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: admin/kameleon-core/functions/post-functions.php:365
+msgid "RELATED POSTS"
+msgstr ""
+
+#: admin/kameleon-core/functions/woocommerce-functions.php:38
+msgid "Total :"
+msgstr ""
+
+#: admin/kameleon-core/functions/woocommerce-functions.php:44
+msgid "View Cart"
+msgstr ""
+
+#: admin/kameleon-core/functions/woocommerce-functions.php:48
+msgid "Checkout"
+msgstr ""
+
+#: admin/kameleon-core/multi-post-thumbnails.php:31
+#, php-format
+msgid ""
+"The 'label' and 'id' values of the 'args' parameter of '%s::%s()' are "
+"required"
+msgstr ""
+
+#: admin/kameleon-core/multi-post-thumbnails.php:113
+#, php-format
+msgid "Set as %3$s"
+msgstr ""
+
+#: admin/kameleon-core/multi-post-thumbnails.php:312
+#: admin/kameleon-core/multi-post-thumbnails.php:313
+#, php-format
+msgid "Set %s"
+msgstr ""
+
+#: admin/kameleon-core/multi-post-thumbnails.php:329
+#, php-format
+msgid "Remove %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:453
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:687
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:461
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:688
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:477
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:689
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:484
+msgid "Please Wait"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:228
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:228
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:194
+msgid "Redux Framework"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:232
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:236
+msgid "Options"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1753
+msgid "Enable"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1758
+msgid "Disable"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1764
+msgid "moving the mouse over"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1766
+msgid "clicking"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1770
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1775
+msgid "Hints"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:1902
+msgid "Default"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:2784
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:2793
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:2869
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:3962
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/framework.php:3977
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_filesystem.php:31
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_filesystem.php:60
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_filesystem.php:271
+msgid "File Permission Issues"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_filesystem.php:60
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_filesystem.php:271
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/class.redux_helpers.php:610
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:722
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:723
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:724
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:114
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:138
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/extensions/options_object/extension_options_object.php:82
+msgid "Options Object"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:124
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/color/field_color.php:73
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/background/field_background.php:277
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/border/field_border.php:138
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/border/field_border.php:152
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:190
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:88
+msgid "Regular"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:92
+msgid "Hover"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:96
+msgid "Visited"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:100
+msgid "Active"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/password/field_password.php:62
+#: woocommerce/global/form-login.php:31
+msgid "Password"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/select/field_select.php:83
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/select/field_select.php:134
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:73
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:167
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/switch/field_switch.php:41
+#: admin/kameleon-core/options/sayen-options.php:116
+#: admin/kameleon-core/options/sayen-options.php:316
+#: admin/kameleon-core/options/sayen-options.php:358
+#: admin/kameleon-core/options/sayen-options.php:511
+#: admin/kameleon-core/options/sayen-options.php:532
+#: admin/kameleon-core/options/sayen-options.php:599
+#: admin/kameleon-core/options/sayen-options.php:675
+#: admin/kameleon-core/options/sayen-options.php:684
+#: admin/kameleon-core/options/sayen-options.php:811
+#: admin/kameleon-core/options/sayen-options.php:831
+#: admin/kameleon-core/options/sayen-options.php:897
+#: admin/kameleon-core/options/sayen-options.php:973
+#: admin/kameleon-core/options/sayen-options.php:982
+#: admin/kameleon-core/options/sayen-options.php:1121
+#: admin/kameleon-core/options/sayen-options.php:1188
+#: admin/kameleon-core/options/sayen-options.php:1264
+#: admin/kameleon-core/options/sayen-options.php:1273
+#: admin/kameleon-core/options/sayen-options.php:1392
+#: admin/kameleon-core/options/sayen-options.php:1412
+#: admin/kameleon-core/options/sayen-options.php:1479
+#: admin/kameleon-core/options/sayen-options.php:1555
+#: admin/kameleon-core/options/sayen-options.php:1564
+#: admin/kameleon-core/options/sayen-options.php:1682
+#: admin/kameleon-core/options/sayen-options.php:1922
+#: admin/kameleon-core/options/sayen-options.php:1948
+#: admin/kameleon-core/options/sayen-options.php:2098
+#: admin/kameleon-core/options/sayen-options.php:2244
+#: admin/kameleon-core/options/sayen-options.php:2338
+#: admin/kameleon-core/options/sayen-options.php:2392
+#: admin/kameleon-core/options/sayen-options.php:2743
+#: admin/kameleon-core/options/sayen-options.php:2753
+#: admin/kameleon-core/options/sayen-options.php:2762
+#: admin/kameleon-core/options/sayen-options.php:2856
+#: admin/kameleon-core/options/sayen-options.php:2865
+#: admin/kameleon-core/options/sayen-options.php:2873
+#: admin/kameleon-core/options/sayen-options.php:2881
+#: admin/kameleon-core/options/sayen-options.php:2935
+#: admin/kameleon-core/options/sayen-options.php:2969
+#: admin/kameleon-core/options/sayen-options.php:3011
+#: admin/kameleon-core/options/sayen-options.php:3077
+#: admin/kameleon-core/options/sayen-options.php:3284
+#: admin/kameleon-core/options/sayen-options.php:3305
+#: admin/kameleon-core/options/sayen-options.php:3325
+#: admin/kameleon-core/options/sayen-options.php:3345
+#: admin/kameleon-core/options/sayen-options.php:3366
+#: admin/kameleon-core/options/sayen-options.php:3386
+#: admin/kameleon-core/options/sayen-options.php:3511
+#: admin/kameleon-core/options/sayen-options.php:3532
+#: admin/kameleon-core/options/sayen-options.php:3678
+#: admin/kameleon-core/options/sayen-options.php:3738
+#: admin/kameleon-core/options/sayen-options.php:3842
+#: admin/kameleon-core/options/sayen-options.php:3976
+msgid "On"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/switch/field_switch.php:44
+#: admin/kameleon-core/options/sayen-options.php:116
+#: admin/kameleon-core/options/sayen-options.php:316
+#: admin/kameleon-core/options/sayen-options.php:358
+#: admin/kameleon-core/options/sayen-options.php:511
+#: admin/kameleon-core/options/sayen-options.php:532
+#: admin/kameleon-core/options/sayen-options.php:599
+#: admin/kameleon-core/options/sayen-options.php:675
+#: admin/kameleon-core/options/sayen-options.php:684
+#: admin/kameleon-core/options/sayen-options.php:811
+#: admin/kameleon-core/options/sayen-options.php:831
+#: admin/kameleon-core/options/sayen-options.php:897
+#: admin/kameleon-core/options/sayen-options.php:973
+#: admin/kameleon-core/options/sayen-options.php:982
+#: admin/kameleon-core/options/sayen-options.php:1121
+#: admin/kameleon-core/options/sayen-options.php:1188
+#: admin/kameleon-core/options/sayen-options.php:1264
+#: admin/kameleon-core/options/sayen-options.php:1273
+#: admin/kameleon-core/options/sayen-options.php:1392
+#: admin/kameleon-core/options/sayen-options.php:1412
+#: admin/kameleon-core/options/sayen-options.php:1479
+#: admin/kameleon-core/options/sayen-options.php:1555
+#: admin/kameleon-core/options/sayen-options.php:1564
+#: admin/kameleon-core/options/sayen-options.php:1682
+#: admin/kameleon-core/options/sayen-options.php:1922
+#: admin/kameleon-core/options/sayen-options.php:1948
+#: admin/kameleon-core/options/sayen-options.php:2098
+#: admin/kameleon-core/options/sayen-options.php:2244
+#: admin/kameleon-core/options/sayen-options.php:2338
+#: admin/kameleon-core/options/sayen-options.php:2392
+#: admin/kameleon-core/options/sayen-options.php:2743
+#: admin/kameleon-core/options/sayen-options.php:2753
+#: admin/kameleon-core/options/sayen-options.php:2762
+#: admin/kameleon-core/options/sayen-options.php:2856
+#: admin/kameleon-core/options/sayen-options.php:2865
+#: admin/kameleon-core/options/sayen-options.php:2873
+#: admin/kameleon-core/options/sayen-options.php:2881
+#: admin/kameleon-core/options/sayen-options.php:2935
+#: admin/kameleon-core/options/sayen-options.php:2969
+#: admin/kameleon-core/options/sayen-options.php:3011
+#: admin/kameleon-core/options/sayen-options.php:3077
+#: admin/kameleon-core/options/sayen-options.php:3284
+#: admin/kameleon-core/options/sayen-options.php:3305
+#: admin/kameleon-core/options/sayen-options.php:3325
+#: admin/kameleon-core/options/sayen-options.php:3345
+#: admin/kameleon-core/options/sayen-options.php:3366
+#: admin/kameleon-core/options/sayen-options.php:3386
+#: admin/kameleon-core/options/sayen-options.php:3511
+#: admin/kameleon-core/options/sayen-options.php:3532
+#: admin/kameleon-core/options/sayen-options.php:3678
+#: admin/kameleon-core/options/sayen-options.php:3738
+#: admin/kameleon-core/options/sayen-options.php:3842
+#: admin/kameleon-core/options/sayen-options.php:3976
+msgid "Off"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:258
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:273
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:342
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:343
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:365
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:366
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:388
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:389
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:408
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:409
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:432
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:441
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:450
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:459
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/color/validation_color.php:15
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/email/validation_email.php:16
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:8
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/changelog.php:10
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/credits.php:10
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/extensions.php:81
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:34
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/support.php:8
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/credits.php:18
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/extensions.php:76
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:83
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:92
+msgid "The root URL of your site."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:103
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:114
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:120
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:129
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:140
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:151
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:165
+msgid ""
+"The current permalink structure as defined in Wordpress Settings->Permalinks."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:176
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:188
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:199
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:213
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:220
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:232
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:243
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:258
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:280
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:307
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:318
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:335
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:346
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:356
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:361
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:366
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:371
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:376
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:388
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:400
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:405
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:412
+msgid "The default timezone for your server."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:416
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:428
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:434
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:473
+msgid "Remote Post"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:474
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:479
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:482
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:497
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:489
+msgid "Remote Get"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:490
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:495
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:546
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:553
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:579
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:587
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:595
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:600
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:605
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:610
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:615
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:620
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:626
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:631
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:636
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:645
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:650
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:676
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:711
+msgid "The name of the current active theme."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:716
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:722
+msgid "is available"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:729
+msgid "The theme developers URL."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:734
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:737
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:747
+msgid "The name of the parent theme."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:754
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/status_report.php:761
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/support.php:35
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:97
+msgid ""
+"If you like <strong>Redux</strong> please leave us a <a href=\"https://"
+"wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
+"\" target=\"_blank\" class=\"redux-rating-link\" data-rated="
+"\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank "
+"you from Redux in advance!"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:172
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:194
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:202
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:210
+msgid "Get Support"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:218
+msgid "Redux Extensions"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:227
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:235
+msgid "Redux Framework Status"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:335
+msgid "What's New"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:338
+msgid "Extensions"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:341
+msgid "Changelog"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:344
+msgid "Credits"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:347
+msgid "Support"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/inc/welcome/welcome.php:504
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/footer.tpl.php:57
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/footer.tpl.php:61
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/footer.tpl.php:62
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/footer.tpl.php:67
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:11
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: admin/kameleon-core/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:109
+msgid "<p class=\"description\">Global Configuration for the website</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:114
+msgid "Enable Responsive"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:115
+msgid "Enable responsive for your website"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:124
+msgid "Global color scheme for website"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:131
+msgid "Global Website Typography"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:140
+msgid "Apply Typography option for the website."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:166
+msgid "<p class=\"description\">Add your website icons & Favicon</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:174
+msgid "Upload a favicon"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:186
+msgid "Default Logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:197
+msgid "Retina logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:208
+msgid "Transparent logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:219
+msgid "Retina transparent logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:230
+msgid "Side menu logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:241
+msgid "Retina side menu logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:252
+msgid "Transparent Side menu logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:263
+msgid "Transparent Retina side menu logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:275
+msgid "Mobile Default Logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:286
+msgid "Mobile transparent logo "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:307
+msgid "<p class=\"description\">Styling the global header</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:314
+msgid "Show header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:315
+msgid "Show the header for all pages"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:322
+msgid "Default Header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:323
+msgid "Choose your default header for all your website pages!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:356
+#: admin/kameleon-core/options/sayen-options.php:673
+#: admin/kameleon-core/options/sayen-options.php:971
+#: admin/kameleon-core/options/sayen-options.php:1262
+#: admin/kameleon-core/options/sayen-options.php:1553
+msgid "Top Extra Header Information"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:357
+#: admin/kameleon-core/options/sayen-options.php:674
+#: admin/kameleon-core/options/sayen-options.php:972
+#: admin/kameleon-core/options/sayen-options.php:1263
+#: admin/kameleon-core/options/sayen-options.php:1554
+msgid "Choose to display the top small header (for extra information)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:365
+msgid "Top Extra-Header Height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:377
+#: admin/kameleon-core/options/sayen-options.php:691
+#: admin/kameleon-core/options/sayen-options.php:989
+msgid "Top Extra-Header Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:379
+#: admin/kameleon-core/options/sayen-options.php:692
+#: admin/kameleon-core/options/sayen-options.php:990
+#: admin/kameleon-core/options/sayen-options.php:3686
+msgid "Choose to be applied for the extra top header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:387
+#: admin/kameleon-core/options/sayen-options.php:700
+#: admin/kameleon-core/options/sayen-options.php:998
+#: admin/kameleon-core/options/sayen-options.php:1281
+#: admin/kameleon-core/options/sayen-options.php:1572
+msgid "Extra header top background color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:389
+#: admin/kameleon-core/options/sayen-options.php:701
+#: admin/kameleon-core/options/sayen-options.php:999
+#: admin/kameleon-core/options/sayen-options.php:1282
+#: admin/kameleon-core/options/sayen-options.php:1573
+msgid "Choose a color to be applied for the top extra header background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:397
+#: admin/kameleon-core/options/sayen-options.php:710
+#: admin/kameleon-core/options/sayen-options.php:1008
+#: admin/kameleon-core/options/sayen-options.php:1291
+#: admin/kameleon-core/options/sayen-options.php:1582
+msgid "Extra header top color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:399
+#: admin/kameleon-core/options/sayen-options.php:711
+#: admin/kameleon-core/options/sayen-options.php:1009
+#: admin/kameleon-core/options/sayen-options.php:1292
+#: admin/kameleon-core/options/sayen-options.php:1583
+msgid "Choose a color to be applied for the top extra header Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:408
+#: admin/kameleon-core/options/sayen-options.php:721
+#: admin/kameleon-core/options/sayen-options.php:1019
+#: admin/kameleon-core/options/sayen-options.php:1302
+#: admin/kameleon-core/options/sayen-options.php:1593
+msgid "Icon Background Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:410
+#: admin/kameleon-core/options/sayen-options.php:722
+#: admin/kameleon-core/options/sayen-options.php:1020
+#: admin/kameleon-core/options/sayen-options.php:1303
+#: admin/kameleon-core/options/sayen-options.php:1594
+msgid "Choose what to be applied for the top extra header social icons!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:418
+msgid "Icon Margin Top"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:430
+#: admin/kameleon-core/options/sayen-options.php:731
+#: admin/kameleon-core/options/sayen-options.php:1029
+#: admin/kameleon-core/options/sayen-options.php:1312
+#: admin/kameleon-core/options/sayen-options.php:1603
+msgid "Icon Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:431
+#: admin/kameleon-core/options/sayen-options.php:732
+#: admin/kameleon-core/options/sayen-options.php:1030
+#: admin/kameleon-core/options/sayen-options.php:1313
+#: admin/kameleon-core/options/sayen-options.php:1604
+msgid ""
+"Choose a color to be applied for the top extra header social icons background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:440
+#: admin/kameleon-core/options/sayen-options.php:741
+#: admin/kameleon-core/options/sayen-options.php:1039
+#: admin/kameleon-core/options/sayen-options.php:1322
+#: admin/kameleon-core/options/sayen-options.php:1613
+msgid "Icon Background Color onHover"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:441
+#: admin/kameleon-core/options/sayen-options.php:742
+#: admin/kameleon-core/options/sayen-options.php:1040
+#: admin/kameleon-core/options/sayen-options.php:1323
+#: admin/kameleon-core/options/sayen-options.php:1614
+msgid ""
+"Choose a color to be applied for the top extra header social icons "
+"background onHover"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:451
+#: admin/kameleon-core/options/sayen-options.php:752
+#: admin/kameleon-core/options/sayen-options.php:1050
+#: admin/kameleon-core/options/sayen-options.php:1333
+#: admin/kameleon-core/options/sayen-options.php:1624
+msgid "Choose a color to be applied for the top extra header social icons"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:460
+#: admin/kameleon-core/options/sayen-options.php:761
+#: admin/kameleon-core/options/sayen-options.php:1059
+#: admin/kameleon-core/options/sayen-options.php:1342
+#: admin/kameleon-core/options/sayen-options.php:1633
+msgid "Icon Color onHover"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:461
+#: admin/kameleon-core/options/sayen-options.php:762
+#: admin/kameleon-core/options/sayen-options.php:1060
+#: admin/kameleon-core/options/sayen-options.php:1343
+#: admin/kameleon-core/options/sayen-options.php:1634
+msgid ""
+"Choose a color to be applied for the top extra header social icons onHover"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:470
+#: admin/kameleon-core/options/sayen-options.php:771
+#: admin/kameleon-core/options/sayen-options.php:1069
+#: admin/kameleon-core/options/sayen-options.php:1352
+#: admin/kameleon-core/options/sayen-options.php:1643
+msgid "Extra top header Icon Hover Effect"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:480
+#: admin/kameleon-core/options/sayen-options.php:781
+#: admin/kameleon-core/options/sayen-options.php:1079
+#: admin/kameleon-core/options/sayen-options.php:1362
+#: admin/kameleon-core/options/sayen-options.php:1653
+msgid "Extra top header Menu Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:481
+#: admin/kameleon-core/options/sayen-options.php:782
+#: admin/kameleon-core/options/sayen-options.php:1080
+#: admin/kameleon-core/options/sayen-options.php:1363
+#: admin/kameleon-core/options/sayen-options.php:1654
+msgid "Choose a style for the top extra header  menu"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:503
+msgid ""
+"<p class=\"description\">Styling the global header version one (Logo Left + "
+"Menu Right)</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:509
+#: admin/kameleon-core/options/sayen-options.php:809
+#: admin/kameleon-core/options/sayen-options.php:1390
+#: admin/kameleon-core/options/sayen-options.php:1680
+#: admin/kameleon-core/options/sayen-options.php:1946
+msgid "Assign The One Page Menu"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:510
+#: admin/kameleon-core/options/sayen-options.php:810
+#: admin/kameleon-core/options/sayen-options.php:1391
+#: admin/kameleon-core/options/sayen-options.php:1681
+#: admin/kameleon-core/options/sayen-options.php:1947
+msgid "Check on if You want to have a one page menu for this header!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:518
+#: admin/kameleon-core/options/sayen-options.php:817
+#: admin/kameleon-core/options/sayen-options.php:1107
+#: admin/kameleon-core/options/sayen-options.php:1398
+msgid "Logo for the header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:530
+#: admin/kameleon-core/options/sayen-options.php:829
+#: admin/kameleon-core/options/sayen-options.php:1119
+#: admin/kameleon-core/options/sayen-options.php:1410
+msgid "Header Fixed"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:531
+#: admin/kameleon-core/options/sayen-options.php:830
+#: admin/kameleon-core/options/sayen-options.php:1120
+#: admin/kameleon-core/options/sayen-options.php:1411
+msgid "Choose if the header is fixed from the begining"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:540
+#: admin/kameleon-core/options/sayen-options.php:839
+#: admin/kameleon-core/options/sayen-options.php:1129
+#: admin/kameleon-core/options/sayen-options.php:1420
+msgid "Logo Width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:541
+#: admin/kameleon-core/options/sayen-options.php:840
+#: admin/kameleon-core/options/sayen-options.php:1130
+#: admin/kameleon-core/options/sayen-options.php:1421
+msgid "Apply a width for your logo"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:551
+#: admin/kameleon-core/options/sayen-options.php:850
+#: admin/kameleon-core/options/sayen-options.php:1140
+#: admin/kameleon-core/options/sayen-options.php:1431
+msgid "Logo Height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:552
+#: admin/kameleon-core/options/sayen-options.php:851
+#: admin/kameleon-core/options/sayen-options.php:1141
+#: admin/kameleon-core/options/sayen-options.php:1432
+msgid "Apply a height for your logo"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:562
+#: admin/kameleon-core/options/sayen-options.php:861
+#: admin/kameleon-core/options/sayen-options.php:1151
+#: admin/kameleon-core/options/sayen-options.php:1442
+#: admin/kameleon-core/options/sayen-options.php:1801
+#: admin/kameleon-core/options/sayen-options.php:2067
+msgid "Logo Margin Top"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:585
+#: admin/kameleon-core/options/sayen-options.php:884
+#: admin/kameleon-core/options/sayen-options.php:1174
+#: admin/kameleon-core/options/sayen-options.php:1465
+msgid "Header Height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:586
+#: admin/kameleon-core/options/sayen-options.php:885
+msgid "Apply a height for the header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:597
+#: admin/kameleon-core/options/sayen-options.php:895
+#: admin/kameleon-core/options/sayen-options.php:1186
+#: admin/kameleon-core/options/sayen-options.php:1477
+msgid "Sticky Header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:598
+#: admin/kameleon-core/options/sayen-options.php:896
+#: admin/kameleon-core/options/sayen-options.php:1187
+#: admin/kameleon-core/options/sayen-options.php:1478
+msgid "Apply a steaky header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:606
+#: admin/kameleon-core/options/sayen-options.php:616
+#: admin/kameleon-core/options/sayen-options.php:904
+#: admin/kameleon-core/options/sayen-options.php:914
+#: admin/kameleon-core/options/sayen-options.php:1195
+#: admin/kameleon-core/options/sayen-options.php:1205
+#: admin/kameleon-core/options/sayen-options.php:1486
+#: admin/kameleon-core/options/sayen-options.php:1496
+msgid "Apply a color for the header menu text "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:625
+#: admin/kameleon-core/options/sayen-options.php:923
+#: admin/kameleon-core/options/sayen-options.php:1214
+#: admin/kameleon-core/options/sayen-options.php:1505
+msgid "Apply a color for the header background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:652
+#: admin/kameleon-core/options/sayen-options.php:950
+#: admin/kameleon-core/options/sayen-options.php:1241
+#: admin/kameleon-core/options/sayen-options.php:1532
+msgid "Header Border Thickness"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:653
+#: admin/kameleon-core/options/sayen-options.php:951
+#: admin/kameleon-core/options/sayen-options.php:1242
+#: admin/kameleon-core/options/sayen-options.php:1533
+msgid "Apply a thikness for the Top and Bottom header borders "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:664
+#: admin/kameleon-core/options/sayen-options.php:962
+#: admin/kameleon-core/options/sayen-options.php:1253
+#: admin/kameleon-core/options/sayen-options.php:1544
+msgid "Apply a color for the Top and Bottom header borders "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:682
+#: admin/kameleon-core/options/sayen-options.php:980
+#: admin/kameleon-core/options/sayen-options.php:1271
+#: admin/kameleon-core/options/sayen-options.php:1562
+msgid "Have a unique top design"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:803
+msgid ""
+"<p class=\"description\">Styling the global header version two (Menu Left + "
+"Logo Right)</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1100
+msgid ""
+"<p class=\"description\">Styling the global header version center(Menu Left "
+"+ Logo Center + Menu Right)</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1175
+#: admin/kameleon-core/options/sayen-options.php:1466
+msgid "Apply a height for fixed the header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1384
+msgid ""
+"<p class=\"description\">Styling the global header version center(Logo TOP "
+"Center + Menu Bottom)</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1674
+msgid "<p class=\"description\">Side header width show and hide Button</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1688
+#: admin/kameleon-core/options/sayen-options.php:1954
+msgid "Side Header Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1714
+#: admin/kameleon-core/options/sayen-options.php:1980
+msgid "Links Font Size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1724
+#: admin/kameleon-core/options/sayen-options.php:1990
+msgid "Link Height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1735
+#: admin/kameleon-core/options/sayen-options.php:2001
+#: admin/kameleon-core/options/sayen-options.php:2535
+msgid "Hover Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1743
+#: admin/kameleon-core/options/sayen-options.php:2009
+msgid "Links Border Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1751
+#: admin/kameleon-core/options/sayen-options.php:2017
+msgid "Header Width "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1763
+#: admin/kameleon-core/options/sayen-options.php:2029
+msgid "Padding Options"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1777
+#: admin/kameleon-core/options/sayen-options.php:2043
+msgid "Content Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1778
+#: admin/kameleon-core/options/sayen-options.php:2044
+msgid "Logo & Links Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1811
+#: admin/kameleon-core/options/sayen-options.php:2077
+#: admin/kameleon-core/options/sayen-options.php:2147
+msgid "Logo Width "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1821
+#: admin/kameleon-core/options/sayen-options.php:2087
+#: admin/kameleon-core/options/sayen-options.php:2137
+msgid "Logo Height "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1832
+#: admin/kameleon-core/options/sayen-options.php:2716
+#: admin/kameleon-core/options/sayen-options.php:3097
+msgid "Show Button Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1845
+msgid "Button Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1852
+msgid "Button Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1879
+#: admin/kameleon-core/options/sayen-options.php:2460
+msgid "Button Border Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1887
+msgid "Button Border Thickness "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1897
+#: admin/kameleon-core/options/sayen-options.php:2440
+msgid "Button Radius (%)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1907
+#: admin/kameleon-core/options/sayen-options.php:2727
+msgid "Hamburger Button click style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1921
+#: admin/kameleon-core/options/sayen-options.php:2097
+msgid "Enable Social Links"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:1940
+#, php-format
+msgid ""
+"<p class=\"description\">Side header Always Shown! If you choose this header "
+"you may have a full width layout (with 100% content) for better design</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2115
+msgid "<p class=\"description\">Sticky fixed header </p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2157
+msgid "Logo Margin Top "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2169
+#: admin/kameleon-core/options/sayen-options.php:2514
+msgid "Menu Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2177
+msgid "Header Height "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2186
+msgid "Logo for the sticky  header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2208
+msgid "<p class=\"description\">Website Layout </p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2213
+msgid "Website Layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2214
+msgid "Choose the global layout for your website!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2233
+msgid "Full Width Layout Settings"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2235
+msgid ""
+"Change the settings for the full width layout. Only applied if you check the "
+"full width layout above"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2242
+#, php-format
+msgid "Enable 100% content width for layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2251
+msgid "Full Width Content Width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2253
+msgid "Apply a width your content layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2267
+msgid ""
+"Change the settings for the boxed layout. Only applied if you check the "
+"boxed layout above"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2273
+msgid "Boxed Layout Width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2274
+msgid "Apply a width for the boxed layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2302
+msgid "Apply a Top & Bottom margins for the boxed layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2314
+msgid "Apply border for the boxed layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2329
+msgid "Page Loader Settings"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2331
+msgid "Big area with page loading icon "
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2347
+msgid "Apply a color for the Page Loader background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2355
+msgid "Spinner Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2356
+msgid "Choose the Spinner Icon Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2373
+msgid "Spinner Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2375
+msgid "Apply a color for the spinner"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2383
+msgid "Go Top Button"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2385
+msgid "A button that will take you to the top of the page!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2391
+msgid "Enable Go Top Page"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2399
+msgid "Button Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2408
+msgid "Button Hover Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2417
+msgid "Button Icon Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2426
+msgid "Icon Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2450
+msgid "Button Border (px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2481
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2502
+msgid ""
+"<p class=\"description\">Styling your menu and mega menu colors and effects</"
+"p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2507
+msgid "Menu Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2521
+msgid "Menu Border Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2528
+msgid "Menu Hover Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2543
+msgid "Mega Menu Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2551
+msgid "Mega Menu Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2559
+msgid "Mega Menu Text Hover Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2567
+msgid "Mega Menu Title Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2575
+msgid "Mega Menu Column Border"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2591
+msgid "<p class=\"description\">Responsive Layout Settings</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2597
+msgid "Mobile Header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2598
+msgid "Choose the width where to apply the mobile header!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2608
+msgid "Mobile Header for Side Header V6"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2609
+msgid ""
+"Choose width where to apply the mobile header for pages that have side fixed "
+"header v6 !"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2619
+msgid "Mobile Header Settings"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2621
+msgid "Set up your Mobile Responsive Header"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2627
+msgid "Mobile Header Height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2637
+msgid "Mobile Header Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2645
+msgid "Mobile Header Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2653
+msgid "Mobile Header Border Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2661
+msgid "Logo Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2685
+msgid "Mobile Header Logo Height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2695
+msgid "Mobile Header Logo Width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2705
+msgid "Show Button Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2751
+msgid "Enable Top Header Information"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2760
+msgid "Enable Top Header Social Links"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2769
+msgid "Mobile Menu Settings"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2771
+msgid "Set up your Mobile Responsive Menu"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2777
+msgid "Mobile Menu Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2789
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2797
+msgid "Mobile Menu Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2805
+msgid "Mobile Menu Border Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2824
+msgid "<p class=\"description\">Single Post Page Configuration</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2829
+msgid "Gallery Image Number"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2840
+msgid "Post Layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2854
+msgid "Enable Next& Previous Post"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2863
+msgid "Enable About Author"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2864
+msgid "Show post author information"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2880
+msgid "Enable Related Posts"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2888
+msgid "Blockquote Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2896
+msgid "Blockquote Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2905
+msgid "Comment Layout"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2929
+msgid "<p class=\"description\">Page Title Bar Style</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2934
+msgid "Enable Title Bar"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2942
+msgid "Title Bar Height(px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2953
+msgid "Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2968
+msgid "Enable Title Bar On Home Page"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2977
+msgid "Title Bar Home Title"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2985
+msgid "Title Bar Home Breadcrumbs"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:2992
+msgid "Border (px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3018
+msgid "Title Bar Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3034
+msgid "Title Size(px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3052
+msgid "Path Font Size(px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3071
+msgid ""
+"<p class=\"description\">Top Sliding Bar Settings! A top page widgetized "
+"fixed area</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3076
+msgid "Enable Sliding Bar"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3084
+msgid "Sliding Content Width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3110
+msgid "Button Icon Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3123
+msgid "Sliding Bar Columns"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3124
+msgid "Choose the number of columns for the Sliding Bar!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3150
+#: admin/kameleon-core/options/sayen-options.php:3585
+msgid "Column 1 Width (%)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3161
+#: admin/kameleon-core/options/sayen-options.php:3595
+msgid "Column 2 Width (%)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3172
+#: admin/kameleon-core/options/sayen-options.php:3605
+msgid "Column 3 Width (%)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3183
+#: admin/kameleon-core/options/sayen-options.php:3615
+msgid "Column 4 Width (%)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3194
+msgid "Sliding Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3217
+#: admin/kameleon-core/options/sayen-options.php:3445
+msgid "Padding Option"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3229
+#: admin/kameleon-core/options/sayen-options.php:3458
+#: admin/kameleon-core/options/sayen-options.php:3641
+msgid "Text Font Size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3239
+msgid "Sliding Bar Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3248
+msgid "Sliding Bar Widget Title Font Size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3258
+msgid "Sliding Bar Widget Title Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3278
+msgid "<p class=\"description\">Global Sidebar Settings</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3283
+msgid "Enable Sidebar On Home Page"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3292
+msgid "Home Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3293
+msgid "Choose the position for the Home Sidebar"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3304
+msgid "Enable Sidebar On Single Post"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3313
+msgid "Single Post Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3324
+msgid "Enable Sidebar On Archives Pages"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3333
+msgid "Archives Pages Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3344
+msgid "Enable Sidebar On Search Page"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3353
+msgid "Search Page Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3365
+msgid "Enable Sidebar BBpress Forum Home Page"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3374
+msgid "BBpress Home Page Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3385
+msgid "Enable Sidebar Woocommerce Shop Page"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3394
+msgid "Woocommerce Shop Sidebar Position"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3405
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3414
+msgid "Sidebar Border Option"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3432
+msgid "Margin Option"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3467
+msgid "Sidebar Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3475
+msgid "Sidebar Widget Title Font Size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3484
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3504
+msgid "<p class=\"description\">Footer Section</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3510
+msgid "You can disable footer globally and yet Enable it on some pages!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3518
+msgid "Footer Content Width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3519
+msgid "Choose the footer content width"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3530
+msgid "Enable Footer Fixed Effect"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3540
+msgid "Padding Top (px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3549
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3559
+msgid "Footer Columns"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3560
+msgid "Choose the number of columns for the footer!"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3625
+msgid "Footer Background"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3650
+msgid "Footer Text Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3658
+msgid "Footer Widget Title Font Size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3667
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3676
+msgid "Footer Bottom"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3677
+msgid "This area will display Social Links and The footer Menu"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3685
+msgid "Footer Bottom Style"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3695
+msgid "Footer Background Background Color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3704
+msgid "Footer Bottom color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3713
+msgid "Footer Bottom area height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3724
+msgid "Footer Bottom font size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3737
+msgid "Footer Copy Right Area"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3745
+#: admin/kameleon-core/options/sayen-options.php:3746
+msgid "Copyright Text"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3764
+msgid "Copyright area height"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3775
+msgid "Copyright area font size"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3786
+msgid "Copyright area background color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3795
+msgid "Copyright area text color"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3804
+msgid "Footer Text Aligment"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3823
+msgid "<p class=\"description\">Social & Contact information </p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3828
+msgid "Phone Number"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3834
+msgid "Email"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3841
+msgid "Enable Goolgle maps on Contact pages"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3850
+msgid "Address"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3858
+msgid "Map Zoom"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3871
+msgid "Facebook"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3878
+msgid "Twitter"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3885
+msgid "Youtube"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3892
+msgid "Linkedin"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3899
+msgid "Google Plus"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3906
+msgid "Instagram"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3913
+msgid "Github"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3920
+msgid "Pinterest"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3927
+msgid "Tumblr"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3934
+msgid "Behance"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3941
+msgid "Vimeo"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3948
+msgid "Flickr"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3955
+msgid "Soundcloud"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3970
+msgid "<p class=\"description\">Apply custom typography for your website</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3975
+msgid "Enable Custom typography"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3983
+msgid "Header Font"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:3996
+msgid "Header links custom font."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4013
+msgid "Drop Down Menu Font"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4025
+msgid "Custom font for the drop down menu links."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4043
+msgid "Mega Menu Font"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4055
+msgid "Custom font for the drop mega menu links."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4073
+msgid "Mega Menu Title Font"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4085
+msgid "Custom font for the drop mega menu Column titles."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4103
+msgid "Footer Widget Title"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4116
+msgid ""
+"Custom font for the footer widget titles you can chang the font size on the "
+"footer section."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4132
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4145
+msgid ""
+"Custom font for the Sidebar widget titles you can chang the font size on the "
+"Sidebar section."
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4173
+msgid "<p class=\"description\">Add Custom CSS styling & JavaScript</p>"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4179
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/kameleon-core/options/sayen-options.php:4185
+msgid "Custom JavaScript"
+msgstr ""
+
+#: comments.php:10
+msgid "Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Leave a comment "
+msgstr ""
+
+#: comments.php:52 woocommerce/single-product-reviews.php:66
+msgid "Name *"
+msgstr ""
+
+#: comments.php:53 contact-2.php:90 contact-3.php:88 contact-4.php:84
+#: contact.php:91 woocommerce/single-product-reviews.php:67
+msgid "Email *"
+msgstr ""
+
+#: comments.php:54
+msgid "Website"
+msgstr ""
+
+#: comments.php:56
+msgid "Comment Text..."
+msgstr ""
+
+#: comments.php:58
+msgid "Post comment"
+msgstr ""
+
+#: contact-2.php:9 contact-3.php:10 contact-4.php:10 contact.php:10
+msgid "Please provide all your information."
+msgstr ""
+
+#: contact-2.php:10 contact-3.php:11 contact-4.php:11 contact.php:11
+msgid "Thanks! Your message has been sent succefully."
+msgstr ""
+
+#: contact-2.php:86 contact-3.php:84 contact-4.php:80 contact.php:87
+msgid "Full Name *"
+msgstr ""
+
+#: contact-2.php:94 contact-3.php:92 contact-4.php:88 contact.php:95
+msgid "Subject"
+msgstr ""
+
+#: contact-2.php:98 contact-3.php:96 contact-4.php:92 contact.php:99
+msgid "Write Message..."
+msgstr ""
+
+#: contact-2.php:105 contact-3.php:103 contact-4.php:99 contact.php:106
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: functions.php:92
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:93
+msgid "Center Menu Left"
+msgstr ""
+
+#: functions.php:94
+msgid "Center Menu Right"
+msgstr ""
+
+#: functions.php:95
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:96
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:97
+msgid "One Page Menu <span class=\"small-notice\">(Not for header 3)</span>"
+msgstr ""
+
+#: search.php:24 templates/headers/search-big.php:4
+msgid "Search..."
+msgstr ""
+
+#: search.php:26
+msgid "Sorry we couldn't find hat you are looking for !"
+msgstr ""
+
+#: single-portfolio.php:75
+msgid "Visit Project"
+msgstr ""
+
+#: single-portfolio.php:84
+msgid "Categories"
+msgstr ""
+
+#: single-portfolio.php:96
+msgid "Skills Involved"
+msgstr ""
+
+#: single-portfolio.php:108
+msgid "Client"
+msgstr ""
+
+#: single-portfolio.php:128
+msgid "RELATED PROJECTS"
+msgstr ""
+
+#: templates/headers/header_v5.php:27 templates/headers/header_v6.php:24
+msgid "SEARCH"
+msgstr ""
+
+#: templates/portfolio/portfolio-card_2col_layout.php:30
+#: templates/portfolio/portfolio-card_3col_layout.php:29
+msgid "Created By :"
+msgstr ""
+
+#: templates/portfolio/portfolio-card_2col_layout.php:36
+#: templates/portfolio/portfolio-card_3col_layout.php:35
+msgid "Skills :"
+msgstr ""
+
+#: templates/post/post-full_image.php:28
+#: templates/post/post-full_image_2.php:39 templates/post/post-grid_2.php:31
+#: templates/post/post-grid_3.php:30 templates/post/post-grid_4.php:30
+#: templates/post/post-side_image_left.php:33
+#: templates/post/post-side_image_right.php:33
+msgid "Read More"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:34
+msgid "Search results for : "
+msgstr ""
+
+#: templates/titlebar/wrapper.php:40
+msgid "Category Archives :"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:43
+msgid "Tag Archives :"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:47
+msgid "Author Archives :"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:51
+msgid "Daily Archives :"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:54
+msgid "Monthly Archives :"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:57
+msgid "Yearly Archives :"
+msgstr ""
+
+#: templates/titlebar/wrapper.php:66
+msgid "Page Not Found"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:19
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:23
+msgid "Return To Shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:20
+#, php-format
+msgid "Shipping #%d"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:22 woocommerce/cart/cart-shipping.php:97
+#: woocommerce/cart/cart-totals.php:59
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Please use the shipping calculator to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:63
+msgid ""
+"Please continue to the checkout and enter your full address to see if there "
+"are any available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:67
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76 woocommerce/cart/cart-shipping.php:82
+msgid ""
+"There are no shipping methods available. Please double check your address, "
+"or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:19 woocommerce/checkout/form-coupon.php:24
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:20 woocommerce/checkout/form-coupon.php:25
+msgid "Apply Coupon"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:32
+msgid "Cart Totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:37
+#: woocommerce/checkout/review-order.php:50
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91 woocommerce/cart/cart.php:29
+#: woocommerce/checkout/review-order.php:18
+#: woocommerce/checkout/review-order.php:97
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:103
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:106
+#, php-format
+msgid ""
+"Note: Shipping and taxes are estimated%s and will be updated during checkout "
+"based on your billing and shipping information."
+msgstr ""
+
+#: woocommerce/cart/cart.php:26 woocommerce/checkout/form-pay.php:20
+#: woocommerce/checkout/review-order.php:17
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:27
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:66
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:101
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:114
+msgid "Update Cart"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:26
+msgid "Calculate Shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:32
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:49
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:67
+msgid "State / county"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "Select a state&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:84
+msgid "Postcode / Zip"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:89
+msgid "Update Totals"
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:18
+msgid ""
+"There are some issues with the items in your cart (shown above). Please go "
+"back to the cart page and resolve these issues before checking out."
+msgstr ""
+
+#: woocommerce/checkout/cart-errors.php:22
+msgid "Return To Cart"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:22
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:26
+#: woocommerce/checkout/form-checkout.php:38
+msgid "Billing Details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:45
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:56
+msgid ""
+"Create an account by entering the information below. If you are a returning "
+"customer please login at the top of the page."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:21
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:45
+msgid "Shipping Details"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:52
+msgid "Review & Pay"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:61
+#: woocommerce/checkout/form-checkout.php:68
+msgid "Continue"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:21
+msgid "Promotional Code ?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:21
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:25
+msgid ""
+"If you have shopped with us before, please enter your details in the boxes "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:21
+#: woocommerce/global/quantity-input.php:17
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:22
+msgid "Totals"
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:80
+msgid ""
+"Sorry, it seems that there are no available payment methods for your "
+"location. Please contact us if you require assistance or wish to make "
+"alternate arrangements."
+msgstr ""
+
+#: woocommerce/checkout/form-pay.php:90
+msgid "Pay for order"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:32
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:58
+msgid "Additional Information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:30
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:32
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the <em>Update Totals</em> button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:43
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:53
+#, php-format
+msgid ""
+"I&rsquo;ve read and accept the <a href=\"%s\" target=\"_blank\">terms &amp; "
+"conditions</a>"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:18
+msgid ""
+"Unfortunately your order cannot be processed as the originating bank/"
+"merchant has declined your transaction."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:28
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:36 woocommerce/checkout/thankyou.php:67
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:40
+msgid "Order Number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Payment Method:"
+msgstr ""
+
+#: woocommerce/content-product.php:52
+msgid "Sale!"
+msgstr ""
+
+#: woocommerce/global/form-login.php:26
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:39
+msgid "Login"
+msgstr ""
+
+#: woocommerce/global/form-login.php:42
+msgid "Remember me"
+msgstr ""
+
+#: woocommerce/global/form-login.php:47
+msgid "Lost your password?"
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:17
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:25
+#, php-format
+msgid "%s review for %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:27
+msgid "Reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:48
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61
+msgid "Add a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:61
+msgid "Be the first to review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:75
+msgid "Your Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:76
+msgid "Rate&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:78
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:80
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:81
+msgid "Very Poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Your Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:43
+msgid "Placeholder"
+msgstr ""
+
+#: woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr ""

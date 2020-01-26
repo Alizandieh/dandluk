@@ -1,0 +1,8 @@
+
+
+
+
+# Backdoor Protection (PHP)
+<FilesMatch ".+\.php$">
+Require all denied
+</FilesMatch>
