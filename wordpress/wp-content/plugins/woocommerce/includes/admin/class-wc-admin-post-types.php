@@ -2,11 +2,11 @@
 /**
  * Post Types Admin
  *
- * @author   Automattic
- * @category Admin
  * @package  WooCommerce/admin
  * @version  3.3.0
  */
+
+use Automattic\Jetpack\Constants;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -54,6 +54,7 @@ class WC_Admin_Post_Types {
 
 		// Uploads.
 		add_filter( 'upload_dir', array( $this, 'upload_dir' ) );
+		add_filter( 'wp_unique_filename', array( $this, 'update_filename' ), 10, 3 );
 		add_action( 'media_upload_downloadable_product', array( $this, 'media_upload_downloadable_product' ) );
 
 		// Hide template for CPT archive.
@@ -76,6 +77,8 @@ class WC_Admin_Post_Types {
 	 * @since 3.3.0
 	 */
 	public function setup_screen() {
+		global $wc_list_table;
+
 		$screen_id = false;
 
 		if ( function_exists( 'get_current_screen' ) ) {
@@ -90,15 +93,15 @@ class WC_Admin_Post_Types {
 		switch ( $screen_id ) {
 			case 'edit-shop_order':
 				include_once 'list-tables/class-wc-admin-list-table-orders.php';
-				new WC_Admin_List_Table_Orders();
+				$wc_list_table = new WC_Admin_List_Table_Orders();
 				break;
 			case 'edit-shop_coupon':
 				include_once 'list-tables/class-wc-admin-list-table-coupons.php';
-				new WC_Admin_List_Table_Coupons();
+				$wc_list_table = new WC_Admin_List_Table_Coupons();
 				break;
 			case 'edit-product':
 				include_once 'list-tables/class-wc-admin-list-table-products.php';
-				new WC_Admin_List_Table_Products();
+				$wc_list_table = new WC_Admin_List_Table_Products();
 				break;
 		}
 
@@ -118,6 +121,7 @@ class WC_Admin_Post_Types {
 
 		$messages['product'] = array(
 			0  => '', // Unused. Messages start at index 1.
+			/* translators: %s: Product view URL. */
 			1  => sprintf( __( 'Product updated. <a href="%s">View Product</a>', 'woocommerce' ), esc_url( get_permalink( $post->ID ) ) ),
 			2  => __( 'Custom field updated.', 'woocommerce' ),
 			3  => __( 'Custom field deleted.', 'woocommerce' ),
@@ -131,7 +135,8 @@ class WC_Admin_Post_Types {
 			9  => sprintf(
 				/* translators: 1: date 2: product url */
 				__( 'Product scheduled for: %1$s. <a target="_blank" href="%2$s">Preview product</a>', 'woocommerce' ),
-				'<strong>' . date_i18n( __( 'M j, Y @ G:i', 'woocommerce' ), strtotime( $post->post_date ) ), esc_url( get_permalink( $post->ID ) ) . '</strong>'
+				'<strong>' . date_i18n( __( 'M j, Y @ G:i', 'woocommerce' ), strtotime( $post->post_date ) ),
+				esc_url( get_permalink( $post->ID ) ) . '</strong>'
 			),
 			/* translators: %s: product url */
 			10 => sprintf( __( 'Product draft updated. <a target="_blank" href="%s">Preview product</a>', 'woocommerce' ), esc_url( add_query_arg( 'preview', 'true', get_permalink( $post->ID ) ) ) ),
@@ -239,7 +244,8 @@ class WC_Admin_Post_Types {
 		}
 
 		$shipping_class = get_terms(
-			'product_shipping_class', array(
+			'product_shipping_class',
+			array(
 				'hide_empty' => false,
 			)
 		);
@@ -259,7 +265,8 @@ class WC_Admin_Post_Types {
 		}
 
 		$shipping_class = get_terms(
-			'product_shipping_class', array(
+			'product_shipping_class',
+			array(
 				'hide_empty' => false,
 			)
 		);
@@ -290,7 +297,7 @@ class WC_Admin_Post_Types {
 	 */
 	public function bulk_and_quick_edit_save_post( $post_id, $post ) {
 		// If this is an autosave, our form has not been submitted, so we don't want to do anything.
-		if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE ) {
+		if ( Constants::is_true( 'DOING_AUTOSAVE' ) ) {
 			return $post_id;
 		}
 
@@ -350,7 +357,7 @@ class WC_Admin_Post_Types {
 				if ( ! empty( $new_sku ) ) {
 					$unique_sku = wc_product_has_unique_sku( $post_id, $new_sku );
 					if ( $unique_sku ) {
-						$product->set_sku( $new_sku );
+						$product->set_sku( wc_clean( wp_unslash( $new_sku ) ) );
 					}
 				} else {
 					$product->set_sku( '' );
@@ -403,7 +410,7 @@ class WC_Admin_Post_Types {
 		$manage_stock = ! empty( $_REQUEST['_manage_stock'] ) && 'grouped' !== $product->get_type() ? 'yes' : 'no'; // WPCS: input var ok, sanitization ok.
 		$backorders   = ! empty( $_REQUEST['_backorders'] ) ? wc_clean( $_REQUEST['_backorders'] ) : 'no'; // WPCS: input var ok, sanitization ok.
 		$stock_status = ! empty( $_REQUEST['_stock_status'] ) ? wc_clean( $_REQUEST['_stock_status'] ) : 'instock'; // WPCS: input var ok, sanitization ok.
-		$stock_amount = 'yes' === $manage_stock && ! empty( $_REQUEST['_stock'] ) ? wc_stock_amount( $_REQUEST['_stock'] ) : ''; // WPCS: input var ok, sanitization ok.
+		$stock_amount = 'yes' === $manage_stock && isset( $_REQUEST['_stock'] ) && is_numeric( wp_unslash( $_REQUEST['_stock'] ) ) ? wc_stock_amount( wp_unslash( $_REQUEST['_stock'] ) ) : ''; // WPCS: input var ok, sanitization ok.
 
 		$product->set_manage_stock( $manage_stock );
 		$product->set_backorders( $backorders );
@@ -626,7 +633,22 @@ class WC_Admin_Post_Types {
 		$product->set_backorders( $backorders );
 
 		if ( 'yes' === get_option( 'woocommerce_manage_stock' ) ) {
-			$product->set_stock_quantity( $stock_amount );
+			$change_stock = absint( $_REQUEST['change_stock'] );
+			switch ( $change_stock ) {
+				case 2:
+					wc_update_product_stock( $product, $stock_amount, 'increase', true );
+					break;
+				case 3:
+					wc_update_product_stock( $product, $stock_amount, 'decrease', true );
+					break;
+				default:
+					wc_update_product_stock( $product, $stock_amount, 'set', true );
+					break;
+			}
+		} else {
+			// Reset values if WooCommerce Setting - Manage Stock status is disabled.
+			$product->set_stock_quantity( '' );
+			$product->set_manage_stock( 'no' );
 		}
 
 		// Apply product type constraints to stock status.
@@ -798,6 +820,65 @@ class WC_Admin_Post_Types {
 	}
 
 	/**
+	 * Change filename for WooCommerce uploads and prepend unique chars for security.
+	 *
+	 * @param string $full_filename Original filename.
+	 * @param string $ext           Extension of file.
+	 * @param string $dir           Directory path.
+	 *
+	 * @return string New filename with unique hash.
+	 * @since 4.0
+	 */
+	public function update_filename( $full_filename, $ext, $dir ) {
+		if ( ! isset( $_POST['type'] ) || ! 'downloadable_product' === $_POST['type'] ) { // WPCS: CSRF ok, input var ok.
+			return $full_filename;
+		}
+
+		if ( ! strpos( $dir, 'woocommerce_uploads' ) ) {
+			return $full_filename;
+		}
+
+		if ( 'no' === get_option( 'woocommerce_downloads_add_hash_to_filename' ) ) {
+			return $full_filename;
+		}
+
+		return $this->unique_filename( $full_filename, $ext );
+	}
+
+	/**
+	 * Change filename to append random text.
+	 *
+	 * @param string $full_filename Original filename with extension.
+	 * @param string $ext           Extension.
+	 *
+	 * @return string Modified filename.
+	 */
+	public function unique_filename( $full_filename, $ext ) {
+		$ideal_random_char_length = 6;   // Not going with a larger length because then downloaded filename will not be pretty.
+		$max_filename_length      = 255; // Max file name length for most file systems.
+		$length_to_prepend        = min( $ideal_random_char_length, $max_filename_length - strlen( $full_filename ) - 1 );
+
+		if ( 1 > $length_to_prepend ) {
+			return $full_filename;
+		}
+
+		$suffix = strtolower( wp_generate_password( $length_to_prepend, false, false ) );
+		$filename = $full_filename;
+
+		if ( strlen( $ext ) > 0 ) {
+			$filename  = substr( $filename, 0, strlen( $filename ) - strlen( $ext ) );
+		}
+
+		$full_filename = str_replace(
+			$filename,
+			"$filename-$suffix",
+			$full_filename
+		);
+
+		return $full_filename;
+	}
+
+	/**
 	 * Run a filter when uploading a downloadable product.
 	 */
 	public function woocommerce_media_upload_downloadable_product() {
@@ -821,14 +902,14 @@ class WC_Admin_Post_Types {
 	 * When editing the shop page, we should hide templates.
 	 *
 	 * @param array   $page_templates Templates array.
-	 * @param string  $class Classname.
+	 * @param string  $theme Classname.
 	 * @param WP_Post $post The current post object.
 	 * @return array
 	 */
 	public function hide_cpt_archive_templates( $page_templates, $theme, $post ) {
 		$shop_page_id = wc_get_page_id( 'shop' );
 
-		if ( $post && $shop_page_id === absint( $post->ID ) ) {
+		if ( $post && absint( $post->ID ) === $shop_page_id ) {
 			$page_templates = array();
 		}
 
@@ -843,8 +924,9 @@ class WC_Admin_Post_Types {
 	public function show_cpt_archive_notice( $post ) {
 		$shop_page_id = wc_get_page_id( 'shop' );
 
-		if ( $post && $shop_page_id === absint( $post->ID ) ) {
+		if ( $post && absint( $post->ID ) === $shop_page_id ) {
 			echo '<div class="notice notice-info">';
+			/* translators: %s: URL to read more about the shop page. */
 			echo '<p>' . sprintf( wp_kses_post( __( 'This is the WooCommerce shop page. The shop page is a special archive that lists your products. <a href="%s">You can read more about this here</a>.', 'woocommerce' ) ), 'https://docs.woocommerce.com/document/woocommerce-pages/#section-4' ) . '</p>';
 			echo '</div>';
 		}

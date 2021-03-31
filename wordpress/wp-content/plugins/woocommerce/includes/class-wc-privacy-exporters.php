@@ -17,10 +17,9 @@ class WC_Privacy_Exporters {
 	 *
 	 * @since 3.4.0
 	 * @param string $email_address The user email address.
-	 * @param int    $page  Page.
 	 * @return array An array of personal data in name value pairs
 	 */
-	public static function customer_data_exporter( $email_address, $page ) {
+	public static function customer_data_exporter( $email_address ) {
 		$user           = get_user_by( 'email', $email_address ); // Check if user has an ID in the DB to load stored personal data.
 		$data_to_export = array();
 
@@ -53,7 +52,7 @@ class WC_Privacy_Exporters {
 	 * @return array An array of personal data in name value pairs
 	 */
 	public static function order_data_exporter( $email_address, $page ) {
-		$done           = false;
+		$done           = true;
 		$page           = (int) $page;
 		$user           = get_user_by( 'email', $email_address ); // Check if user has an ID in the DB to load stored personal data.
 		$data_to_export = array();
@@ -79,8 +78,6 @@ class WC_Privacy_Exporters {
 				);
 			}
 			$done = 10 > count( $orders );
-		} else {
-			$done = true;
 		}
 
 		return array(
@@ -95,10 +92,11 @@ class WC_Privacy_Exporters {
 	 * @since 3.4.0
 	 * @param string $email_address The user email address.
 	 * @param int    $page  Page.
+	 * @throws Exception When WC_Data_Store validation fails.
 	 * @return array An array of personal data in name value pairs
 	 */
 	public static function download_data_exporter( $email_address, $page ) {
-		$done            = false;
+		$done            = true;
 		$page            = (int) $page;
 		$user            = get_user_by( 'email', $email_address ); // Check if user has an ID in the DB to load stored personal data.
 		$data_to_export  = array();
@@ -153,8 +151,6 @@ class WC_Privacy_Exporters {
 				}
 			}
 			$done = 10 > count( $downloads );
-		} else {
-			$done = true;
 		}
 
 		return array(
@@ -168,6 +164,7 @@ class WC_Privacy_Exporters {
 	 *
 	 * @since 3.4.0
 	 * @param WP_User $user user object.
+	 * @throws Exception If customer cannot be read/found and $data is set to WC_Customer class.
 	 * @return array
 	 */
 	protected static function get_customer_personal_data( $user ) {
@@ -178,28 +175,32 @@ class WC_Privacy_Exporters {
 			return array();
 		}
 
-		$props_to_export = apply_filters( 'woocommerce_privacy_export_customer_personal_data_props', array(
-			'billing_first_name'  => __( 'Billing First Name', 'woocommerce' ),
-			'billing_last_name'   => __( 'Billing Last Name', 'woocommerce' ),
-			'billing_company'     => __( 'Billing Company', 'woocommerce' ),
-			'billing_address_1'   => __( 'Billing Address 1', 'woocommerce' ),
-			'billing_address_2'   => __( 'Billing Address 2', 'woocommerce' ),
-			'billing_city'        => __( 'Billing City', 'woocommerce' ),
-			'billing_postcode'    => __( 'Billing Postal/Zip Code', 'woocommerce' ),
-			'billing_state'       => __( 'Billing State', 'woocommerce' ),
-			'billing_country'     => __( 'Billing Country', 'woocommerce' ),
-			'billing_phone'       => __( 'Phone Number', 'woocommerce' ),
-			'billing_email'       => __( 'Email Address', 'woocommerce' ),
-			'shipping_first_name' => __( 'Shipping First Name', 'woocommerce' ),
-			'shipping_last_name'  => __( 'Shipping Last Name', 'woocommerce' ),
-			'shipping_company'    => __( 'Shipping Company', 'woocommerce' ),
-			'shipping_address_1'  => __( 'Shipping Address 1', 'woocommerce' ),
-			'shipping_address_2'  => __( 'Shipping Address 2', 'woocommerce' ),
-			'shipping_city'       => __( 'Shipping City', 'woocommerce' ),
-			'shipping_postcode'   => __( 'Shipping Postal/Zip Code', 'woocommerce' ),
-			'shipping_state'      => __( 'Shipping State', 'woocommerce' ),
-			'shipping_country'    => __( 'Shipping Country', 'woocommerce' ),
-		), $customer );
+		$props_to_export = apply_filters(
+			'woocommerce_privacy_export_customer_personal_data_props',
+			array(
+				'billing_first_name'  => __( 'Billing First Name', 'woocommerce' ),
+				'billing_last_name'   => __( 'Billing Last Name', 'woocommerce' ),
+				'billing_company'     => __( 'Billing Company', 'woocommerce' ),
+				'billing_address_1'   => __( 'Billing Address 1', 'woocommerce' ),
+				'billing_address_2'   => __( 'Billing Address 2', 'woocommerce' ),
+				'billing_city'        => __( 'Billing City', 'woocommerce' ),
+				'billing_postcode'    => __( 'Billing Postal/Zip Code', 'woocommerce' ),
+				'billing_state'       => __( 'Billing State', 'woocommerce' ),
+				'billing_country'     => __( 'Billing Country / Region', 'woocommerce' ),
+				'billing_phone'       => __( 'Phone Number', 'woocommerce' ),
+				'billing_email'       => __( 'Email Address', 'woocommerce' ),
+				'shipping_first_name' => __( 'Shipping First Name', 'woocommerce' ),
+				'shipping_last_name'  => __( 'Shipping Last Name', 'woocommerce' ),
+				'shipping_company'    => __( 'Shipping Company', 'woocommerce' ),
+				'shipping_address_1'  => __( 'Shipping Address 1', 'woocommerce' ),
+				'shipping_address_2'  => __( 'Shipping Address 2', 'woocommerce' ),
+				'shipping_city'       => __( 'Shipping City', 'woocommerce' ),
+				'shipping_postcode'   => __( 'Shipping Postal/Zip Code', 'woocommerce' ),
+				'shipping_state'      => __( 'Shipping State', 'woocommerce' ),
+				'shipping_country'    => __( 'Shipping Country / Region', 'woocommerce' ),
+			),
+			$customer
+		);
 
 		foreach ( $props_to_export as $prop => $description ) {
 			$value = '';
@@ -239,18 +240,22 @@ class WC_Privacy_Exporters {
 	 */
 	protected static function get_order_personal_data( $order ) {
 		$personal_data   = array();
-		$props_to_export = apply_filters( 'woocommerce_privacy_export_order_personal_data_props', array(
-			'order_number'               => __( 'Order Number', 'woocommerce' ),
-			'date_created'               => __( 'Order Date', 'woocommerce' ),
-			'total'                      => __( 'Order Total', 'woocommerce' ),
-			'items'                      => __( 'Items Purchased', 'woocommerce' ),
-			'customer_ip_address'        => __( 'IP Address', 'woocommerce' ),
-			'customer_user_agent'        => __( 'Browser User Agent', 'woocommerce' ),
-			'formatted_billing_address'  => __( 'Billing Address', 'woocommerce' ),
-			'formatted_shipping_address' => __( 'Shipping Address', 'woocommerce' ),
-			'billing_phone'              => __( 'Phone Number', 'woocommerce' ),
-			'billing_email'              => __( 'Email Address', 'woocommerce' ),
-		), $order );
+		$props_to_export = apply_filters(
+			'woocommerce_privacy_export_order_personal_data_props',
+			array(
+				'order_number'               => __( 'Order Number', 'woocommerce' ),
+				'date_created'               => __( 'Order Date', 'woocommerce' ),
+				'total'                      => __( 'Order Total', 'woocommerce' ),
+				'items'                      => __( 'Items Purchased', 'woocommerce' ),
+				'customer_ip_address'        => __( 'IP Address', 'woocommerce' ),
+				'customer_user_agent'        => __( 'Browser User Agent', 'woocommerce' ),
+				'formatted_billing_address'  => __( 'Billing Address', 'woocommerce' ),
+				'formatted_shipping_address' => __( 'Shipping Address', 'woocommerce' ),
+				'billing_phone'              => __( 'Phone Number', 'woocommerce' ),
+				'billing_email'              => __( 'Email Address', 'woocommerce' ),
+			),
+			$order
+		);
 
 		foreach ( $props_to_export as $prop => $name ) {
 			$value = '';
@@ -288,12 +293,15 @@ class WC_Privacy_Exporters {
 		}
 
 		// Export meta data.
-		$meta_to_export = apply_filters( 'woocommerce_privacy_export_order_personal_data_meta', array(
-			'Payer first name'     => __( 'Payer first name', 'woocommerce' ),
-			'Payer last name'      => __( 'Payer last name', 'woocommerce' ),
-			'Payer PayPal address' => __( 'Payer PayPal address', 'woocommerce' ),
-			'Transaction ID'       => __( 'Transaction ID', 'woocommerce' ),
-		) );
+		$meta_to_export = apply_filters(
+			'woocommerce_privacy_export_order_personal_data_meta',
+			array(
+				'Payer first name'     => __( 'Payer first name', 'woocommerce' ),
+				'Payer last name'      => __( 'Payer last name', 'woocommerce' ),
+				'Payer PayPal address' => __( 'Payer PayPal address', 'woocommerce' ),
+				'Transaction ID'       => __( 'Transaction ID', 'woocommerce' ),
+			)
+		);
 
 		if ( ! empty( $meta_to_export ) && is_array( $meta_to_export ) ) {
 			foreach ( $meta_to_export as $meta_key => $name ) {
@@ -394,11 +402,13 @@ class WC_Privacy_Exporters {
 			);
 		}
 
-		$tokens = WC_Payment_Tokens::get_tokens( array(
-			'user_id' => $user->ID,
-			'limit'   => 10,
-			'page'    => $page,
-		) );
+		$tokens = WC_Payment_Tokens::get_tokens(
+			array(
+				'user_id' => $user->ID,
+				'limit'   => 10,
+				'page'    => $page,
+			)
+		);
 
 		if ( 0 < count( $tokens ) ) {
 			foreach ( $tokens as $token ) {

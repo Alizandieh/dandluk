@@ -39,16 +39,16 @@ class WC_Privacy extends WC_Abstract_Privacy {
 		include_once 'class-wc-privacy-exporters.php';
 
 		// This hook registers WooCommerce data exporters.
-		$this->add_exporter( 'woocommerce-customer-data', __( 'Customer Data', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'customer_data_exporter' ) );
-		$this->add_exporter( 'woocommerce-customer-orders', __( 'Customer Orders', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'order_data_exporter' ) );
-		$this->add_exporter( 'woocommerce-customer-downloads', __( 'Customer Downloads', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'download_data_exporter' ) );
-		$this->add_exporter( 'woocommerce-customer-tokens', __( 'Customer Payment Tokens', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'customer_tokens_exporter' ) );
+		$this->add_exporter( 'woocommerce-customer-data', __( 'WooCommerce Customer Data', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'customer_data_exporter' ) );
+		$this->add_exporter( 'woocommerce-customer-orders', __( 'WooCommerce Customer Orders', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'order_data_exporter' ) );
+		$this->add_exporter( 'woocommerce-customer-downloads', __( 'WooCommerce Customer Downloads', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'download_data_exporter' ) );
+		$this->add_exporter( 'woocommerce-customer-tokens', __( 'WooCommerce Customer Payment Tokens', 'woocommerce' ), array( 'WC_Privacy_Exporters', 'customer_tokens_exporter' ) );
 
 		// This hook registers WooCommerce data erasers.
-		$this->add_eraser( 'woocommerce-customer-data', __( 'Customer Data', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'customer_data_eraser' ) );
-		$this->add_eraser( 'woocommerce-customer-orders', __( 'Customer Orders', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'order_data_eraser' ) );
-		$this->add_eraser( 'woocommerce-customer-downloads', __( 'Customer Downloads', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'download_data_eraser' ) );
-		$this->add_eraser( 'woocommerce-customer-tokens', __( 'Customer Payment Tokens', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'customer_tokens_eraser' ) );
+		$this->add_eraser( 'woocommerce-customer-data', __( 'WooCommerce Customer Data', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'customer_data_eraser' ) );
+		$this->add_eraser( 'woocommerce-customer-orders', __( 'WooCommerce Customer Orders', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'order_data_eraser' ) );
+		$this->add_eraser( 'woocommerce-customer-downloads', __( 'WooCommerce Customer Downloads', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'download_data_eraser' ) );
+		$this->add_eraser( 'woocommerce-customer-tokens', __( 'WooCommerce Customer Payment Tokens', 'woocommerce' ), array( 'WC_Privacy_Erasers', 'customer_tokens_eraser' ) );
 
 		// Cleanup orders daily - this is a callback on a daily cron event.
 		add_action( 'woocommerce_cleanup_personal_data', array( $this, 'queue_cleanup_personal_data' ) );
@@ -169,12 +169,17 @@ class WC_Privacy extends WC_Abstract_Privacy {
 			return 0;
 		}
 
-		return self::trash_orders_query( apply_filters( 'woocommerce_trash_pending_orders_query_args', array(
-			'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
-			'limit'        => $limit, // Batches of 20.
-			'status'       => 'wc-pending',
-			'type'         => 'shop_order',
-		) ) );
+		return self::trash_orders_query(
+			apply_filters(
+				'woocommerce_trash_pending_orders_query_args',
+				array(
+					'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
+					'limit'        => $limit, // Batches of 20.
+					'status'       => 'wc-pending',
+					'type'         => 'shop_order',
+				)
+			)
+		);
 	}
 
 	/**
@@ -191,12 +196,17 @@ class WC_Privacy extends WC_Abstract_Privacy {
 			return 0;
 		}
 
-		return self::trash_orders_query( apply_filters( 'woocommerce_trash_failed_orders_query_args', array(
-			'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
-			'limit'        => $limit, // Batches of 20.
-			'status'       => 'wc-failed',
-			'type'         => 'shop_order',
-		) ) );
+		return self::trash_orders_query(
+			apply_filters(
+				'woocommerce_trash_failed_orders_query_args',
+				array(
+					'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
+					'limit'        => $limit, // Batches of 20.
+					'status'       => 'wc-failed',
+					'type'         => 'shop_order',
+				)
+			)
+		);
 	}
 
 	/**
@@ -213,12 +223,17 @@ class WC_Privacy extends WC_Abstract_Privacy {
 			return 0;
 		}
 
-		return self::trash_orders_query( apply_filters( 'woocommerce_trash_cancelled_orders_query_args', array(
-			'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
-			'limit'        => $limit, // Batches of 20.
-			'status'       => 'wc-cancelled',
-			'type'         => 'shop_order',
-		) ) );
+		return self::trash_orders_query(
+			apply_filters(
+				'woocommerce_trash_cancelled_orders_query_args',
+				array(
+					'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
+					'limit'        => $limit, // Batches of 20.
+					'status'       => 'wc-cancelled',
+					'type'         => 'shop_order',
+				)
+			)
+		);
 	}
 
 	/**
@@ -256,13 +271,18 @@ class WC_Privacy extends WC_Abstract_Privacy {
 			return 0;
 		}
 
-		return self::anonymize_orders_query( apply_filters( 'woocommerce_anonymize_completed_orders_query_args', array(
-			'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
-			'limit'        => $limit, // Batches of 20.
-			'status'       => 'wc-completed',
-			'anonymized'   => false,
-			'type'         => 'shop_order',
-		) ) );
+		return self::anonymize_orders_query(
+			apply_filters(
+				'woocommerce_anonymize_completed_orders_query_args',
+				array(
+					'date_created' => '<' . strtotime( '-' . $option['number'] . ' ' . $option['unit'] ),
+					'limit'        => $limit, // Batches of 20.
+					'status'       => 'wc-completed',
+					'anonymized'   => false,
+					'type'         => 'shop_order',
+				)
+			)
+		);
 	}
 
 	/**
@@ -313,33 +333,42 @@ class WC_Privacy extends WC_Abstract_Privacy {
 	 */
 	protected static function delete_inactive_accounts_query( $timestamp, $limit = 20 ) {
 		$count      = 0;
-		$user_query = new WP_User_Query( array(
-			'fields'     => 'ID',
-			'number'     => $limit,
-			'role__in'   => apply_filters( 'woocommerce_delete_inactive_account_roles', array(
-				'Customer',
-				'Subscriber',
-			) ),
-			'meta_query' => array(
-				'relation' => 'AND',
-				array(
-					'key'     => 'wc_last_active',
-					'value'   => (string) $timestamp,
-					'compare' => '<',
-					'type'    => 'NUMERIC',
+		$user_query = new WP_User_Query(
+			array(
+				'fields'     => 'ID',
+				'number'     => $limit,
+				'role__in'   => apply_filters(
+					'woocommerce_delete_inactive_account_roles',
+					array(
+						'Customer',
+						'Subscriber',
+					)
 				),
-				array(
-					'key'     => 'wc_last_active',
-					'value'   => '0',
-					'compare' => '>',
-					'type'    => 'NUMERIC',
+				'meta_query' => array( // phpcs:ignore WordPress.DB.SlowDBQuery.slow_db_query_meta_query
+					'relation' => 'AND',
+					array(
+						'key'     => 'wc_last_active',
+						'value'   => (string) $timestamp,
+						'compare' => '<',
+						'type'    => 'NUMERIC',
+					),
+					array(
+						'key'     => 'wc_last_active',
+						'value'   => '0',
+						'compare' => '>',
+						'type'    => 'NUMERIC',
+					),
 				),
-			),
-		) );
+			)
+		);
 
 		$user_ids = $user_query->get_results();
 
 		if ( $user_ids ) {
+			if ( ! function_exists( 'wp_delete_user' ) ) {
+				require_once ABSPATH . 'wp-admin/includes/user.php';
+			}
+
 			foreach ( $user_ids as $user_id ) {
 				wp_delete_user( $user_id );
 				$count ++;

@@ -1515,3 +1515,5 @@ exit(0);
 1580039738_1361:"Notice: dandl_admin, 77.96.138.140; Shop_order status has been changed; details: ID: 810,Old status: new,New status: wc-pending,Title: Order &ndash; January 26, 2020 @ 11:55 AM"
 1580039739_0515:"Notice: dandl_admin, 77.96.138.140; Shop_order status has been changed; details: ID: 810,Old status: wc-pending,New status: wc-processing,Title: Order &ndash; January 26, 2020 @ 11:55 AM"
 1580041506_2848:"Warning: dandl_admin, 77.96.138.140; Plugin activated: Easy WP SMTP (v1.3.9.2; easy-wp-smtp\/easy-wp-smtp.php)"
+1584523347_8869:"Warning: dandl_admin, 145.43.254.28; Plugin activated: Change wp-admin login (v1.0.0; change-wp-admin-login\/change-wp-admin-login.php)"
+1588941013_7504:"Critical: admin_ali, 77.96.138.140; WordPress updated to version: 5.4.1"
