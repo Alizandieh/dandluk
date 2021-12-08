@@ -1,0 +1,6 @@
+.wpb-layout-element-button[data-element=Bit_Pricing_Tables] .vc_element-icon {
+	background: url("../images/tables.png") no-repeat center center / cover;
+}
+.wpb-layout-element-button[data-element=Bit_Pricing_Table] .vc_element-icon {
+	background: url("../images/table.png") no-repeat center center / cover;
+}

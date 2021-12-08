@@ -1,0 +1,3152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kameleon\n"
+"POT-Creation-Date: 2016-04-10 13:30-0000\n"
+"PO-Revision-Date: 2016-04-10 13:30-0000\n"
+"Last-Translator: \n"
+"Language-Team: SayenThemes <sayen.themes@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_n;_x;_ex;esc_html__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/importer/dash.php:26
+msgid "Stand up and stretch a little while importing the demo data :)"
+msgstr ""
+
+#: includes/importer/dash.php:34
+msgid "Kameleon Demo Importer"
+msgstr ""
+
+#: includes/importer/dash.php:56
+msgid "Preview"
+msgstr ""
+
+#: includes/importer/dash.php:59
+msgid "Import Demo"
+msgstr ""
+
+#: includes/importer/dash.php:73
+msgid ""
+"Importing Demos will overwrite all your theme options! please check for a "
+"good connection to assure a successful operation. Sliders are not provided!"
+msgstr ""
+
+#: includes/importer/parsers.php:42 includes/importer/parsers.php:72
+#: includes/importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: includes/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: includes/importer/parsers.php:84 includes/importer/parsers.php:89
+#: includes/importer/parsers.php:279 includes/importer/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: includes/importer/radium-importer.php:342
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/importer/radium-importer.php:364
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/importer/radium-importer.php:388
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:126
+#: includes/importer/wordpress-importer.php:177
+#: includes/importer/wordpress-importer.php:181
+#: includes/importer/wordpress-importer.php:190
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:161
+msgid "All done."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:161
+msgid "Have fun!"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:162
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:182
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:198
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:223
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:249
+msgid "Assign Authors"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:250
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:252
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:262
+msgid "Import Attachments"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:265
+msgid "Download and import file attachments"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:269
+msgid "Submit"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:282
+msgid "Import author:"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:293
+msgid "or create new user with login name:"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:296
+msgid "as a new user:"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:304
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:306
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:307
+msgid "- Select -"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:357
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:408
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:448
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:494
+#: includes/importer/wordpress-importer.php:635
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:520
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:542
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:601
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:766
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:773
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:836
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:849
+msgid "Invalid file type"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:893
+msgid "Remote server did not respond"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:899
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:906
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:911
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:917
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:1015
+msgid "Import WordPress"
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:1022
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:1037
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: includes/importer/wordpress-importer.php:1038
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:453
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:687
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:461
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:688
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:469
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:477
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:689
+msgid ""
+"Your current options will be replaced with the values of this preset. Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:484
+msgid "Please Wait"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:495
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/enqueue.php:496
+msgid ""
+"There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/core/panel.php:312
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template "
+"files</strong> &#8211; if you encounter functionality issues this could be "
+"the reason. Ensure you update or remove them."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:228
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:228
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:194
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:232
+#: includes/options/redux/ReduxCore/framework.php:236
+msgid "Options"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1753
+msgid "Enable"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1758
+msgid "Disable"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1764
+msgid "moving the mouse over"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1766
+msgid "clicking"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1770
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition "
+"information about the field in which they appear.  They can be %d d by using "
+"the link below."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1775
+msgid "Hints"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:1902
+msgid "Default"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:2784
+msgid "Invalid security credential.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:2793
+msgid "Invalid user capability.  Please reload the page and try again."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:2869
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:3962
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>admin_bar_links</code> "
+"argument.  This is sample data.  Please change or remove this data before "
+"shipping your product."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/framework.php:3977
+msgid ""
+"<strong>Redux Framework Notice: </strong>There are references to the Redux "
+"Framework support site in your config's <code>share_icons</code> argument.  "
+"This is sample data.  Please change or remove this data before shipping your "
+"product."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_admin_notices.php:97
+msgid "Dismiss"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_cdn.php:74
+msgid ""
+"Please wait a few minutes, then try refreshing the page. Unable to load some "
+"remotely hosted scripts."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_cdn.php:76
+#, php-format
+msgid ""
+"If you are developing offline, please download and install the <a href=\"%s"
+"\" target=\"_blank\">Redux Vendor Support</a> plugin/extension to bypass the "
+"our CDN and avoid this warning"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_cdn.php:81
+msgid "Redux Framework Warning"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_cdn.php:81
+#, php-format
+msgid "%s CDN unavailable.  Some controls may not render properly."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_cdn.php:113
+#, php-format
+msgid ""
+"The <a href=\"%s\">Vendor Support plugin</a> (or extension) is either not "
+"installed or not activated and thus, some controls may not render properly.  "
+"Please ensure that it is installed and <a href=\"%s\">activated</a>"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_filesystem.php:31
+#: includes/options/redux/ReduxCore/inc/class.redux_filesystem.php:60
+#: includes/options/redux/ReduxCore/inc/class.redux_filesystem.php:271
+msgid "File Permission Issues"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_filesystem.php:31
+#, php-format
+msgid ""
+"We were unable to modify required files. Please check your permissions, or "
+"modify your wp-config.php file to contain your FTP login credentials as <a "
+"href=\"%s\" target=\"_blank\">outlined here</a>."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_filesystem.php:60
+#: includes/options/redux/ReduxCore/inc/class.redux_filesystem.php:271
+#, php-format
+msgid ""
+"We were unable to modify required files. Please ensure that <code>%1s</code> "
+"has the proper read-write permissions, or modify your wp-config.php file to "
+"contain your FTP login credentials as <a href=\"%2s\" target=\"_blank"
+"\">outlined here</a>."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/class.redux_helpers.php:610
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of "
+"date. The core version is %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:722
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:723
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/extension_customizer.php:724
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would "
+"you like to proceed?"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:114
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:142
+#, php-format
+msgid "You are customizing %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:138
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:79
+msgid "Back"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_panel.php:146
+msgid "Help"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:72
+msgid "Press return or enter to open"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/customizer/inc/customizer_section.php:122
+msgid "Press return or enter to expand"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/import_export/extension_import_export.php:120
+msgid "Import / Export"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid ""
+"Input your backup file below and hit Import to restore your sites options "
+"from a backup."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:111
+msgid ""
+"Input the URL to another sites options set and hit Import to load the "
+"options from that site."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+msgid ""
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:124
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as "
+"you can use it as a backup should anything go wrong, or you can use it to "
+"restore your settings on this site (or any other site)."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/extensions/options_object/extension_options_object.php:82
+msgid "Options Object"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:124
+#: includes/options/redux/ReduxCore/inc/fields/color/field_color.php:73
+#: includes/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: includes/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:277
+#: includes/options/redux/ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:314
+#: includes/options/redux/ReduxCore/inc/fields/media/field_media.php:198
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:126
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/background/field_background.php:321
+#: includes/options/redux/ReduxCore/inc/fields/media/field_media.php:205
+#: includes/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: includes/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: includes/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:133
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/border/field_border.php:125
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/border/field_border.php:138
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/border/field_border.php:145
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/border/field_border.php:152
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/border/field_border.php:159
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/border/field_border.php:174
+msgid "Border style"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:178
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: includes/options/redux/ReduxCore/inc/fields/dimensions/field_dimensions.php:190
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: includes/options/redux/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:88
+msgid "Regular"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:92
+msgid "Hover"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:96
+msgid "Visited"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/link_color/field_link_color.php:100
+msgid "Active"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/select/field_select.php:83
+#: includes/options/redux/ReduxCore/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/select/field_select.php:134
+#: includes/options/redux/ReduxCore/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:73
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:145
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:149
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:153
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:167
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/switch/field_switch.php:41
+#: includes/options/sayen-options.php:119
+#: includes/options/sayen-options.php:307
+#: includes/options/sayen-options.php:349
+#: includes/options/sayen-options.php:502
+#: includes/options/sayen-options.php:523
+#: includes/options/sayen-options.php:590
+#: includes/options/sayen-options.php:666
+#: includes/options/sayen-options.php:675
+#: includes/options/sayen-options.php:802
+#: includes/options/sayen-options.php:822
+#: includes/options/sayen-options.php:888
+#: includes/options/sayen-options.php:964
+#: includes/options/sayen-options.php:973
+#: includes/options/sayen-options.php:1112
+#: includes/options/sayen-options.php:1179
+#: includes/options/sayen-options.php:1255
+#: includes/options/sayen-options.php:1264
+#: includes/options/sayen-options.php:1383
+#: includes/options/sayen-options.php:1403
+#: includes/options/sayen-options.php:1470
+#: includes/options/sayen-options.php:1546
+#: includes/options/sayen-options.php:1555
+#: includes/options/sayen-options.php:1673
+#: includes/options/sayen-options.php:1913
+#: includes/options/sayen-options.php:1939
+#: includes/options/sayen-options.php:2089
+#: includes/options/sayen-options.php:2235
+#: includes/options/sayen-options.php:2329
+#: includes/options/sayen-options.php:2383
+#: includes/options/sayen-options.php:2734
+#: includes/options/sayen-options.php:2744
+#: includes/options/sayen-options.php:2753
+#: includes/options/sayen-options.php:2847
+#: includes/options/sayen-options.php:2856
+#: includes/options/sayen-options.php:2864
+#: includes/options/sayen-options.php:2872
+#: includes/options/sayen-options.php:2926
+#: includes/options/sayen-options.php:2960
+#: includes/options/sayen-options.php:3002
+#: includes/options/sayen-options.php:3068
+#: includes/options/sayen-options.php:3275
+#: includes/options/sayen-options.php:3296
+#: includes/options/sayen-options.php:3316
+#: includes/options/sayen-options.php:3336
+#: includes/options/sayen-options.php:3357
+#: includes/options/sayen-options.php:3377
+#: includes/options/sayen-options.php:3502
+#: includes/options/sayen-options.php:3523
+#: includes/options/sayen-options.php:3669
+#: includes/options/sayen-options.php:3729
+#: includes/options/sayen-options.php:3833
+#: includes/options/sayen-options.php:3967
+msgid "On"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/switch/field_switch.php:44
+#: includes/options/sayen-options.php:119
+#: includes/options/sayen-options.php:307
+#: includes/options/sayen-options.php:349
+#: includes/options/sayen-options.php:502
+#: includes/options/sayen-options.php:523
+#: includes/options/sayen-options.php:590
+#: includes/options/sayen-options.php:666
+#: includes/options/sayen-options.php:675
+#: includes/options/sayen-options.php:802
+#: includes/options/sayen-options.php:822
+#: includes/options/sayen-options.php:888
+#: includes/options/sayen-options.php:964
+#: includes/options/sayen-options.php:973
+#: includes/options/sayen-options.php:1112
+#: includes/options/sayen-options.php:1179
+#: includes/options/sayen-options.php:1255
+#: includes/options/sayen-options.php:1264
+#: includes/options/sayen-options.php:1383
+#: includes/options/sayen-options.php:1403
+#: includes/options/sayen-options.php:1470
+#: includes/options/sayen-options.php:1546
+#: includes/options/sayen-options.php:1555
+#: includes/options/sayen-options.php:1673
+#: includes/options/sayen-options.php:1913
+#: includes/options/sayen-options.php:1939
+#: includes/options/sayen-options.php:2089
+#: includes/options/sayen-options.php:2235
+#: includes/options/sayen-options.php:2329
+#: includes/options/sayen-options.php:2383
+#: includes/options/sayen-options.php:2734
+#: includes/options/sayen-options.php:2744
+#: includes/options/sayen-options.php:2753
+#: includes/options/sayen-options.php:2847
+#: includes/options/sayen-options.php:2856
+#: includes/options/sayen-options.php:2864
+#: includes/options/sayen-options.php:2872
+#: includes/options/sayen-options.php:2926
+#: includes/options/sayen-options.php:2960
+#: includes/options/sayen-options.php:3002
+#: includes/options/sayen-options.php:3068
+#: includes/options/sayen-options.php:3275
+#: includes/options/sayen-options.php:3296
+#: includes/options/sayen-options.php:3316
+#: includes/options/sayen-options.php:3336
+#: includes/options/sayen-options.php:3357
+#: includes/options/sayen-options.php:3377
+#: includes/options/sayen-options.php:3502
+#: includes/options/sayen-options.php:3523
+#: includes/options/sayen-options.php:3669
+#: includes/options/sayen-options.php:3729
+#: includes/options/sayen-options.php:3833
+#: includes/options/sayen-options.php:3967
+msgid "Off"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:258
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:273
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:342
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:343
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:365
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:366
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:388
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:389
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:408
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:409
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:432
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:441
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:450
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:459
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:890
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/fields/typography/field_typography.php:991
+msgid "Google Webfonts"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:15
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: If you are "
+"submitting to WordPress.org Theme Repository, it is <strong>strongly</"
+"strong> suggested that you read <a href=\"%s\" target=\"_blank\">this "
+"document</a>, or your theme will be rejected because of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:24
+#, php-format
+msgid ""
+"<span class=\"tc-lead tc-required\">REQUIRED</span>: You MUST delete "
+"<strong> %s </strong>, or your theme will be rejected by WP.org theme "
+"submission because of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:38
+msgid "Optional"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/embedded.php:40
+msgid ""
+"<span class=\"tc-lead tc-recommended\">RECOMMENDED</span>: The following "
+"arguments MUST be used for WP.org submissions, or you will be rejected "
+"because of your Redux configuration."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:16
+msgid "Redux localization utilities"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:17
+msgid "Redux Resting Diles"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:18
+msgid "Redux Code Styles"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:19
+msgid "Redux Unit Testing"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:20
+msgid "Redux Plugin File"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:21
+msgid "Redux Boostrap Tests"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:22
+msgid "CI Testing FIle"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:23
+msgid "PHP Unit Testing"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/themecheck/checks/full_package.php:36
+msgid ""
+"It appears that you have embedded the full Redux package inside your theme. "
+"You need only embed the <strong>ReduxCore</strong> folder. Embedding "
+"anything else will get your rejected from theme submission. Suspected Redux "
+"package file(s):"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/color/validation_color.php:15
+#: includes/options/redux/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: includes/options/redux/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid ""
+"You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/css/validation_css.php:39
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/email/validation_email.php:16
+#: includes/options/redux/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid ""
+"You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special "
+"characters have been removed."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: includes/options/redux/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid ""
+"That URL slug is in use, please choose another. <code>%s</code> is open for "
+"use."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:2
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:5
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Redux Framework %s is a huge "
+"step forward in Redux Development. Look at all that's new."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:8
+#: includes/options/redux/ReduxCore/inc/welcome/views/changelog.php:10
+#: includes/options/redux/ReduxCore/inc/welcome/views/credits.php:10
+#: includes/options/redux/ReduxCore/inc/welcome/views/extensions.php:81
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:34
+#: includes/options/redux/ReduxCore/inc/welcome/views/support.php:8
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:15
+msgid "What is Redux Framework?"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:17
+msgid ""
+"Redux Framework is the core of many products on the web. It is an option "
+"framework which developers use to\n"
+"            enhance their products."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:22
+msgid "Learn More"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/about.php:28
+msgid "New in this Release"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/credits.php:18
+#, php-format
+msgid ""
+"Redux is created by a community of developers world wide. Want to have your "
+"name listed too? <a href=\"%d\" target=\"_blank\">Contribute to Redux</a>."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/extensions.php:76
+msgid ""
+"Supercharge your Redux experience. Our extensions provide you with features "
+"that will take your products to the next level."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:83
+msgid "The URL of your site's homepage."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:92
+msgid "The root URL of your site."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:103
+msgid "The version of Redux Framework installed on your site."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:114
+msgid ""
+"Redux and its extensions write data to the <code>uploads</code> directory. "
+"This directory must be writable."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:120
+#, php-format
+msgid "To allow data saving, make <code>%s</code> writable."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:129
+msgid "The location of Wordpress's content URL."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:140
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:151
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:165
+msgid ""
+"The current permalink structure as defined in Wordpress Settings->Permalinks."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:176
+msgid "The current Reading mode of Wordpress."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:188
+msgid "The currently selected page which acts as the site's Front Page."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:199
+msgid "The currently selected page in where blog posts are displayed."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:213
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:220
+#, php-format
+msgid ""
+"%s - We recommend setting memory to at least 40MB. See: <a href=\"%s\" "
+"target=\"_blank\">Increasing memory allocated to PHP</a>"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:232
+msgid "The prefix structure of the current Wordpress database."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:243
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:258
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:280
+msgid "Information about web browser current in use."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:307
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:318
+msgid "Is the server running in a localhost environment."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:335
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:346
+msgid "The ABSPATH variable on the server."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:356
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:361
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:366
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:371
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:376
+msgid "Determines if PHP will display errors within the browser."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:388
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself.  "
+"If enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:400
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:405
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:412
+msgid "The default timezone for your server."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:416
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:428
+msgid "Used when communicating with remote services with PHP."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:434
+msgid ""
+"Your server does not have fsockopen or cURL enabled - cURL is used to "
+"communicate with other servers. Please contact your hosting provider."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:473
+msgid "Remote Post"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:474
+msgid "Used to send data to remote servers."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:479
+msgid ""
+"wp_remote_post() failed. Many advanced features may not function. Contact "
+"your hosting provider."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:482
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:497
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:489
+msgid "Remote Get"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:490
+msgid "Used to grab information from remote servers for updates updates."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:495
+msgid ""
+"wp_remote_get() failed. This is needed to get information from remote "
+"servers. Contact your hosting provider."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:546
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:553
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:579
+msgid "The opt_name argument for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:587
+msgid "The global_variable argument for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:595
+msgid "Indicates if developer mode is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:600
+msgid "Indicates if ajax based saving is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:605
+msgid ""
+"The page slug denotes the string used for the options panel page for this "
+"instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:610
+msgid ""
+"The page permissions variable sets the permission level required to access "
+"the options panel for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:615
+msgid ""
+"This variable set whether or not the menu is displayed as an admin menu item "
+"for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:620
+msgid ""
+"The page parent variable sets where the options menu will be placed on the "
+"WordPress admin sidebar for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:626
+msgid "Indicates if the compiler flag is enabled for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:631
+msgid ""
+"Indicates if output flag for globally shutting off all CSS output is enabled "
+"for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:636
+msgid ""
+"The output_tag variable sets whether or not dynamic CSS will be generated "
+"for the customizer and Google fonts for this instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:645
+msgid ""
+"The specified template path containing custom template files for this "
+"instance of Redux."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:650
+msgid "List of template files overriding the default Redux template files."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:676
+msgid "Indicates the installed Redux extensions and their version numbers."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:711
+msgid "The name of the current active theme."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:716
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:722
+msgid "is available"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:729
+msgid "The theme developers URL."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:734
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:737
+#, php-format
+msgid ""
+"If you're modifying Redux Framework or a parent theme you didn't build "
+"personally, we recommend using a child theme. See: <a href=\"%s\" target="
+"\"_blank\">How to create a child theme</a>"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:747
+msgid "The name of the parent theme."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:754
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/status_report.php:761
+msgid "The parent theme developers URL."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/support.php:35
+#, php-format
+msgid ""
+"This will provide to your developer all the information they may need to "
+"remedy your issue. This action WILL send information securely to a remote "
+"server. To see the type of information sent, please look at the  <a href=\"%s"
+"\">Status tab</a>."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/views/support.php:134
+#, php-format
+msgid ""
+"Should the developer not be responsive, read the <a href=\"%s\" target="
+"\"_blank\">following article</a> before asking for support from us directly."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:97
+msgid ""
+"If you like <strong>Redux</strong> please leave us a <a href=\"https://"
+"wordpress.org/support/view/plugin-reviews/redux-framework?filter=5#postform"
+"\" target=\"_blank\" class=\"redux-rating-link\" data-rated="
+"\"Thanks :)\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating. A huge thank "
+"you from Redux in advance!"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:172
+msgid "Support hash could not be generated. Please try again later."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:194
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:202
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:210
+msgid "Get Support"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:218
+msgid "Redux Extensions"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:227
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:235
+msgid "Redux Framework Status"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:335
+msgid "What's New"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:338
+msgid "Extensions"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:341
+msgid "Changelog"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:344
+msgid "Credits"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:347
+msgid "Support"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:350
+msgid "Status"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/inc/welcome/welcome.php:504
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/footer.tpl.php:57
+#: includes/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:21
+msgid "Save Changes"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/footer.tpl.php:61
+#: includes/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:25
+msgid "Reset Section"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/footer.tpl.php:62
+#: includes/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:26
+msgid "Reset All"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/footer.tpl.php:67
+#: includes/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:29
+msgid "Working..."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:11
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:49
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:20
+msgid "WP_DEBUG is enabled"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:26
+msgid "you are working in a localhost environment"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:31
+msgid "and"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:34
+msgid "This has been automatically enabled because"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:36
+msgid ""
+"If you are not a developer, your theme/plugin author shipped with developer "
+"mode enabled. Contact them directly to fix it."
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header.tpl.php:58
+msgid "FORCED DEV MODE OFF ENABLED"
+msgstr ""
+
+#: includes/options/redux/ReduxCore/templates/panel/header_stickybar.tpl.php:15
+msgid "Expand"
+msgstr ""
+
+#: includes/options/sayen-options.php:112
+msgid "Global Configuration for the website"
+msgstr ""
+
+#: includes/options/sayen-options.php:117
+msgid "Enable Responsive"
+msgstr ""
+
+#: includes/options/sayen-options.php:118
+msgid "Enable responsive for your website"
+msgstr ""
+
+#: includes/options/sayen-options.php:126
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/options/sayen-options.php:127
+msgid "Global color scheme for website"
+msgstr ""
+
+#: includes/options/sayen-options.php:134
+msgid "Global Website Typography"
+msgstr ""
+
+#: includes/options/sayen-options.php:143
+msgid "Apply Typography option for the website."
+msgstr ""
+
+#: includes/options/sayen-options.php:169
+msgid "Add your website icons & Favicon"
+msgstr ""
+
+#: includes/options/sayen-options.php:177
+msgid "Default Logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:188
+msgid "Retina logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:199
+msgid "Transparent logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:210
+msgid "Retina transparent logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:221
+msgid "Side menu logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:232
+msgid "Retina side menu logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:243
+msgid "Transparent Side menu logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:254
+msgid "Transparent Retina side menu logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:266
+msgid "Mobile Default Logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:277
+msgid "Mobile transparent logo "
+msgstr ""
+
+#: includes/options/sayen-options.php:298
+msgid "Styling the global header"
+msgstr ""
+
+#: includes/options/sayen-options.php:305
+msgid "Show header"
+msgstr ""
+
+#: includes/options/sayen-options.php:306
+msgid "Show the header for all pages"
+msgstr ""
+
+#: includes/options/sayen-options.php:313
+msgid "Default Header"
+msgstr ""
+
+#: includes/options/sayen-options.php:314
+msgid "Choose your default header for all your website pages!"
+msgstr ""
+
+#: includes/options/sayen-options.php:347
+#: includes/options/sayen-options.php:664
+#: includes/options/sayen-options.php:962
+#: includes/options/sayen-options.php:1253
+#: includes/options/sayen-options.php:1544
+msgid "Top Extra Header Information"
+msgstr ""
+
+#: includes/options/sayen-options.php:348
+#: includes/options/sayen-options.php:665
+#: includes/options/sayen-options.php:963
+#: includes/options/sayen-options.php:1254
+#: includes/options/sayen-options.php:1545
+msgid "Choose to display the top small header (for extra information)"
+msgstr ""
+
+#: includes/options/sayen-options.php:356
+msgid "Top Extra-Header Height"
+msgstr ""
+
+#: includes/options/sayen-options.php:368
+#: includes/options/sayen-options.php:682
+#: includes/options/sayen-options.php:980
+msgid "Top Extra-Header Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:370
+#: includes/options/sayen-options.php:683
+#: includes/options/sayen-options.php:981
+#: includes/options/sayen-options.php:3677
+msgid "Choose to be applied for the extra top header"
+msgstr ""
+
+#: includes/options/sayen-options.php:378
+#: includes/options/sayen-options.php:691
+#: includes/options/sayen-options.php:989
+#: includes/options/sayen-options.php:1272
+#: includes/options/sayen-options.php:1563
+msgid "Extra header top background color"
+msgstr ""
+
+#: includes/options/sayen-options.php:380
+#: includes/options/sayen-options.php:692
+#: includes/options/sayen-options.php:990
+#: includes/options/sayen-options.php:1273
+#: includes/options/sayen-options.php:1564
+msgid "Choose a color to be applied for the top extra header background"
+msgstr ""
+
+#: includes/options/sayen-options.php:388
+#: includes/options/sayen-options.php:701
+#: includes/options/sayen-options.php:999
+#: includes/options/sayen-options.php:1282
+#: includes/options/sayen-options.php:1573
+msgid "Extra header top color"
+msgstr ""
+
+#: includes/options/sayen-options.php:390
+#: includes/options/sayen-options.php:702
+#: includes/options/sayen-options.php:1000
+#: includes/options/sayen-options.php:1283
+#: includes/options/sayen-options.php:1574
+msgid "Choose a color to be applied for the top extra header Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:399
+#: includes/options/sayen-options.php:712
+#: includes/options/sayen-options.php:1010
+#: includes/options/sayen-options.php:1293
+#: includes/options/sayen-options.php:1584
+msgid "Icon Background Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:401
+#: includes/options/sayen-options.php:713
+#: includes/options/sayen-options.php:1011
+#: includes/options/sayen-options.php:1294
+#: includes/options/sayen-options.php:1585
+msgid "Choose what to be applied for the top extra header social icons!"
+msgstr ""
+
+#: includes/options/sayen-options.php:409
+msgid "Icon Margin Top"
+msgstr ""
+
+#: includes/options/sayen-options.php:421
+#: includes/options/sayen-options.php:722
+#: includes/options/sayen-options.php:1020
+#: includes/options/sayen-options.php:1303
+#: includes/options/sayen-options.php:1594
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:422
+#: includes/options/sayen-options.php:723
+#: includes/options/sayen-options.php:1021
+#: includes/options/sayen-options.php:1304
+#: includes/options/sayen-options.php:1595
+msgid ""
+"Choose a color to be applied for the top extra header social icons background"
+msgstr ""
+
+#: includes/options/sayen-options.php:431
+#: includes/options/sayen-options.php:732
+#: includes/options/sayen-options.php:1030
+#: includes/options/sayen-options.php:1313
+#: includes/options/sayen-options.php:1604
+msgid "Icon Background Color onHover"
+msgstr ""
+
+#: includes/options/sayen-options.php:432
+#: includes/options/sayen-options.php:733
+#: includes/options/sayen-options.php:1031
+#: includes/options/sayen-options.php:1314
+#: includes/options/sayen-options.php:1605
+msgid ""
+"Choose a color to be applied for the top extra header social icons "
+"background onHover"
+msgstr ""
+
+#: includes/options/sayen-options.php:441
+#: includes/options/sayen-options.php:742
+#: includes/options/sayen-options.php:1040
+#: includes/options/sayen-options.php:1323
+#: includes/options/sayen-options.php:1614
+msgid "Icon Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:442
+#: includes/options/sayen-options.php:743
+#: includes/options/sayen-options.php:1041
+#: includes/options/sayen-options.php:1324
+#: includes/options/sayen-options.php:1615
+msgid "Choose a color to be applied for the top extra header social icons"
+msgstr ""
+
+#: includes/options/sayen-options.php:451
+#: includes/options/sayen-options.php:752
+#: includes/options/sayen-options.php:1050
+#: includes/options/sayen-options.php:1333
+#: includes/options/sayen-options.php:1624
+msgid "Icon Color onHover"
+msgstr ""
+
+#: includes/options/sayen-options.php:452
+#: includes/options/sayen-options.php:753
+#: includes/options/sayen-options.php:1051
+#: includes/options/sayen-options.php:1334
+#: includes/options/sayen-options.php:1625
+msgid ""
+"Choose a color to be applied for the top extra header social icons onHover"
+msgstr ""
+
+#: includes/options/sayen-options.php:461
+#: includes/options/sayen-options.php:762
+#: includes/options/sayen-options.php:1060
+#: includes/options/sayen-options.php:1343
+#: includes/options/sayen-options.php:1634
+msgid "Extra top header Icon Hover Effect"
+msgstr ""
+
+#: includes/options/sayen-options.php:471
+#: includes/options/sayen-options.php:772
+#: includes/options/sayen-options.php:1070
+#: includes/options/sayen-options.php:1353
+#: includes/options/sayen-options.php:1644
+msgid "Extra top header Menu Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:472
+#: includes/options/sayen-options.php:773
+#: includes/options/sayen-options.php:1071
+#: includes/options/sayen-options.php:1354
+#: includes/options/sayen-options.php:1645
+msgid "Choose a style for the top extra header  menu"
+msgstr ""
+
+#: includes/options/sayen-options.php:494
+msgid "Styling the global header version one (Logo Left + Menu Right)"
+msgstr ""
+
+#: includes/options/sayen-options.php:500
+#: includes/options/sayen-options.php:800
+#: includes/options/sayen-options.php:1381
+#: includes/options/sayen-options.php:1671
+#: includes/options/sayen-options.php:1937
+msgid "Assign The One Page Menu"
+msgstr ""
+
+#: includes/options/sayen-options.php:501
+#: includes/options/sayen-options.php:801
+#: includes/options/sayen-options.php:1382
+#: includes/options/sayen-options.php:1672
+#: includes/options/sayen-options.php:1938
+msgid "Check on if You want to have a one page menu for this header!"
+msgstr ""
+
+#: includes/options/sayen-options.php:509
+#: includes/options/sayen-options.php:808
+#: includes/options/sayen-options.php:1098
+#: includes/options/sayen-options.php:1389
+msgid "Logo for the header"
+msgstr ""
+
+#: includes/options/sayen-options.php:510
+#: includes/options/sayen-options.php:809
+#: includes/options/sayen-options.php:1099
+#: includes/options/sayen-options.php:1390
+msgid "Choose what logo to apply for this header!"
+msgstr ""
+
+#: includes/options/sayen-options.php:521
+#: includes/options/sayen-options.php:820
+#: includes/options/sayen-options.php:1110
+#: includes/options/sayen-options.php:1401
+msgid "Header Fixed"
+msgstr ""
+
+#: includes/options/sayen-options.php:522
+#: includes/options/sayen-options.php:821
+#: includes/options/sayen-options.php:1111
+#: includes/options/sayen-options.php:1402
+msgid "Choose if the header is fixed from the begining"
+msgstr ""
+
+#: includes/options/sayen-options.php:531
+#: includes/options/sayen-options.php:830
+#: includes/options/sayen-options.php:1120
+#: includes/options/sayen-options.php:1411
+msgid "Logo Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:532
+#: includes/options/sayen-options.php:831
+#: includes/options/sayen-options.php:1121
+#: includes/options/sayen-options.php:1412
+msgid "Apply a width for your logo"
+msgstr ""
+
+#: includes/options/sayen-options.php:542
+#: includes/options/sayen-options.php:841
+#: includes/options/sayen-options.php:1131
+#: includes/options/sayen-options.php:1422
+msgid "Logo Height"
+msgstr ""
+
+#: includes/options/sayen-options.php:543
+#: includes/options/sayen-options.php:842
+#: includes/options/sayen-options.php:1132
+#: includes/options/sayen-options.php:1423
+msgid "Apply a height for your logo"
+msgstr ""
+
+#: includes/options/sayen-options.php:553
+#: includes/options/sayen-options.php:852
+#: includes/options/sayen-options.php:1142
+#: includes/options/sayen-options.php:1433
+#: includes/options/sayen-options.php:1792
+#: includes/options/sayen-options.php:2058
+msgid "Logo Margin Top"
+msgstr ""
+
+#: includes/options/sayen-options.php:564
+#: includes/options/sayen-options.php:863
+#: includes/options/sayen-options.php:1153
+#: includes/options/sayen-options.php:1444
+msgid "Header Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:576
+#: includes/options/sayen-options.php:875
+#: includes/options/sayen-options.php:1165
+#: includes/options/sayen-options.php:1456
+msgid "Header Height"
+msgstr ""
+
+#: includes/options/sayen-options.php:577
+#: includes/options/sayen-options.php:876
+msgid "Apply a height for the header"
+msgstr ""
+
+#: includes/options/sayen-options.php:588
+#: includes/options/sayen-options.php:886
+#: includes/options/sayen-options.php:1177
+#: includes/options/sayen-options.php:1468
+msgid "Sticky Header"
+msgstr ""
+
+#: includes/options/sayen-options.php:589
+#: includes/options/sayen-options.php:887
+#: includes/options/sayen-options.php:1178
+#: includes/options/sayen-options.php:1469
+msgid "Apply a steaky header"
+msgstr ""
+
+#: includes/options/sayen-options.php:596
+#: includes/options/sayen-options.php:606
+#: includes/options/sayen-options.php:894
+#: includes/options/sayen-options.php:904
+#: includes/options/sayen-options.php:1185
+#: includes/options/sayen-options.php:1195
+#: includes/options/sayen-options.php:1476
+#: includes/options/sayen-options.php:1486
+#: includes/options/sayen-options.php:1697
+#: includes/options/sayen-options.php:1963
+msgid "Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:597
+#: includes/options/sayen-options.php:607
+#: includes/options/sayen-options.php:895
+#: includes/options/sayen-options.php:905
+#: includes/options/sayen-options.php:1186
+#: includes/options/sayen-options.php:1196
+#: includes/options/sayen-options.php:1477
+#: includes/options/sayen-options.php:1487
+msgid "Apply a color for the header menu text "
+msgstr ""
+
+#: includes/options/sayen-options.php:615
+#: includes/options/sayen-options.php:913
+#: includes/options/sayen-options.php:1204
+#: includes/options/sayen-options.php:1495
+#: includes/options/sayen-options.php:1689
+#: includes/options/sayen-options.php:1955
+#: includes/options/sayen-options.php:2112
+#: includes/options/sayen-options.php:2336
+msgid "Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:616
+#: includes/options/sayen-options.php:914
+#: includes/options/sayen-options.php:1205
+#: includes/options/sayen-options.php:1496
+msgid "Apply a color for the header background"
+msgstr ""
+
+#: includes/options/sayen-options.php:643
+#: includes/options/sayen-options.php:941
+#: includes/options/sayen-options.php:1232
+#: includes/options/sayen-options.php:1523
+msgid "Header Border Thickness"
+msgstr ""
+
+#: includes/options/sayen-options.php:644
+#: includes/options/sayen-options.php:942
+#: includes/options/sayen-options.php:1233
+#: includes/options/sayen-options.php:1524
+msgid "Apply a thikness for the Top and Bottom header borders "
+msgstr ""
+
+#: includes/options/sayen-options.php:654
+#: includes/options/sayen-options.php:952
+#: includes/options/sayen-options.php:1243
+#: includes/options/sayen-options.php:1534
+msgid "Header Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:655
+#: includes/options/sayen-options.php:953
+#: includes/options/sayen-options.php:1244
+#: includes/options/sayen-options.php:1535
+msgid "Apply a color for the Top and Bottom header borders "
+msgstr ""
+
+#: includes/options/sayen-options.php:673
+#: includes/options/sayen-options.php:971
+#: includes/options/sayen-options.php:1262
+#: includes/options/sayen-options.php:1553
+msgid "Have a unique top design"
+msgstr ""
+
+#: includes/options/sayen-options.php:794
+msgid "Styling the global header version two (Menu Left + Logo Right)"
+msgstr ""
+
+#: includes/options/sayen-options.php:1091
+msgid ""
+"Styling the global header version center(Menu Left + Logo Center + Menu "
+"Right)"
+msgstr ""
+
+#: includes/options/sayen-options.php:1166
+#: includes/options/sayen-options.php:1457
+msgid "Apply a height for fixed the header"
+msgstr ""
+
+#: includes/options/sayen-options.php:1375
+msgid "Styling the global header version center(Logo TOP Center + Menu Bottom)"
+msgstr ""
+
+#: includes/options/sayen-options.php:1665
+msgid "Side header width show and hide Button"
+msgstr ""
+
+#: includes/options/sayen-options.php:1679
+#: includes/options/sayen-options.php:1945
+msgid "Side Header Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:1705
+#: includes/options/sayen-options.php:1971
+msgid "Links Font Size"
+msgstr ""
+
+#: includes/options/sayen-options.php:1715
+#: includes/options/sayen-options.php:1981
+msgid "Link Height"
+msgstr ""
+
+#: includes/options/sayen-options.php:1726
+#: includes/options/sayen-options.php:1992
+#: includes/options/sayen-options.php:2526
+msgid "Hover Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:1734
+#: includes/options/sayen-options.php:2000
+msgid "Links Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:1742
+#: includes/options/sayen-options.php:2008
+msgid "Header Width "
+msgstr ""
+
+#: includes/options/sayen-options.php:1754
+#: includes/options/sayen-options.php:2020
+msgid "Padding Options"
+msgstr ""
+
+#: includes/options/sayen-options.php:1768
+#: includes/options/sayen-options.php:2034
+msgid "Content Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:1769
+#: includes/options/sayen-options.php:2035
+msgid "Logo & Links Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:1781
+#: includes/options/sayen-options.php:2047
+#: includes/options/sayen-options.php:2665
+msgid "Logo Type"
+msgstr ""
+
+#: includes/options/sayen-options.php:1802
+#: includes/options/sayen-options.php:2068
+#: includes/options/sayen-options.php:2138
+msgid "Logo Width "
+msgstr ""
+
+#: includes/options/sayen-options.php:1812
+#: includes/options/sayen-options.php:2078
+#: includes/options/sayen-options.php:2128
+msgid "Logo Height "
+msgstr ""
+
+#: includes/options/sayen-options.php:1823
+#: includes/options/sayen-options.php:2707
+#: includes/options/sayen-options.php:3088
+msgid "Show Button Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:1836
+msgid "Button Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:1843
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:1870
+#: includes/options/sayen-options.php:2451
+msgid "Button Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:1878
+msgid "Button Border Thickness "
+msgstr ""
+
+#: includes/options/sayen-options.php:1888
+#: includes/options/sayen-options.php:2431
+msgid "Button Radius (%)"
+msgstr ""
+
+#: includes/options/sayen-options.php:1898
+#: includes/options/sayen-options.php:2718
+msgid "Hamburger Button click style"
+msgstr ""
+
+#: includes/options/sayen-options.php:1912
+#: includes/options/sayen-options.php:2088
+msgid "Enable Social Links"
+msgstr ""
+
+#: includes/options/sayen-options.php:1931
+#, php-format
+msgid ""
+"Side header Always Shown! If you choose this header you may have a full "
+"width layout (with 100% content) for better design"
+msgstr ""
+
+#: includes/options/sayen-options.php:2106
+msgid "Sticky fixed header "
+msgstr ""
+
+#: includes/options/sayen-options.php:2120
+#: includes/options/sayen-options.php:2993
+msgid "Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2148
+msgid "Logo Margin Top "
+msgstr ""
+
+#: includes/options/sayen-options.php:2160
+#: includes/options/sayen-options.php:2505
+msgid "Menu Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2168
+msgid "Header Height "
+msgstr ""
+
+#: includes/options/sayen-options.php:2177
+msgid "Logo for the sticky  header"
+msgstr ""
+
+#: includes/options/sayen-options.php:2199
+msgid "Website Layout "
+msgstr ""
+
+#: includes/options/sayen-options.php:2204
+msgid "Website Layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2205
+msgid "Choose the global layout for your website!"
+msgstr ""
+
+#: includes/options/sayen-options.php:2215
+msgid "Content Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2224
+msgid "Full Width Layout Settings"
+msgstr ""
+
+#: includes/options/sayen-options.php:2226
+msgid ""
+"Change the settings for the full width layout. Only applied if you check the "
+"full width layout above"
+msgstr ""
+
+#: includes/options/sayen-options.php:2232
+msgid "Content 100% Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:2233
+#, php-format
+msgid "Enable 100% content width for layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2242
+msgid "Full Width Content Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:2244
+msgid "Apply a width your content layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2258
+msgid ""
+"Change the settings for the boxed layout. Only applied if you check the "
+"boxed layout above"
+msgstr ""
+
+#: includes/options/sayen-options.php:2264
+msgid "Boxed Layout Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:2265
+msgid "Apply a width for the boxed layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2275
+msgid "Container Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2276
+msgid "Apply background for the boxed Layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2292
+msgid "Boxed Layout Margin"
+msgstr ""
+
+#: includes/options/sayen-options.php:2293
+msgid "Apply a Top & Bottom margins for the boxed layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2304
+msgid "Boxed Layout Border"
+msgstr ""
+
+#: includes/options/sayen-options.php:2305
+msgid "Apply border for the boxed layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2320
+msgid "Page Loader Settings"
+msgstr ""
+
+#: includes/options/sayen-options.php:2322
+msgid "Big area with page loading icon "
+msgstr ""
+
+#: includes/options/sayen-options.php:2328
+msgid "Enable Page Pre-Loader"
+msgstr ""
+
+#: includes/options/sayen-options.php:2338
+msgid "Apply a color for the Page Loader background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2346
+msgid "Spinner Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:2347
+msgid "Choose the Spinner Icon Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:2364
+msgid "Spinner Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2366
+msgid "Apply a color for the spinner"
+msgstr ""
+
+#: includes/options/sayen-options.php:2374
+msgid "Go Top Button"
+msgstr ""
+
+#: includes/options/sayen-options.php:2376
+msgid "A button that will take you to the top of the page!"
+msgstr ""
+
+#: includes/options/sayen-options.php:2382
+msgid "Enable Go Top Page"
+msgstr ""
+
+#: includes/options/sayen-options.php:2390
+msgid "Button Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2399
+msgid "Button Hover Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2408
+msgid "Button Icon Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2417
+msgid "Icon Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:2441
+msgid "Button Border (px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:2460
+msgid "Button Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:2472
+msgid "Margin Bottom (px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:2493
+msgid "Styling your menu and mega menu colors and effects"
+msgstr ""
+
+#: includes/options/sayen-options.php:2498
+msgid "Menu Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2512
+msgid "Menu Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2519
+msgid "Menu Hover Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2534
+msgid "Mega Menu Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2542
+msgid "Mega Menu Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2550
+msgid "Mega Menu Text Hover Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2558
+msgid "Mega Menu Title Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2566
+msgid "Mega Menu Column Border"
+msgstr ""
+
+#: includes/options/sayen-options.php:2582
+msgid "Responsive Layout Settings"
+msgstr ""
+
+#: includes/options/sayen-options.php:2588
+msgid "Mobile Header"
+msgstr ""
+
+#: includes/options/sayen-options.php:2589
+msgid "Choose the width where to apply the mobile header!"
+msgstr ""
+
+#: includes/options/sayen-options.php:2599
+msgid "Mobile Header for Side Header V6"
+msgstr ""
+
+#: includes/options/sayen-options.php:2600
+msgid ""
+"Choose width where to apply the mobile header for pages that have side fixed "
+"header v6 !"
+msgstr ""
+
+#: includes/options/sayen-options.php:2610
+msgid "Mobile Header Settings"
+msgstr ""
+
+#: includes/options/sayen-options.php:2612
+msgid "Set up your Mobile Responsive Header"
+msgstr ""
+
+#: includes/options/sayen-options.php:2618
+msgid "Mobile Header Height"
+msgstr ""
+
+#: includes/options/sayen-options.php:2628
+msgid "Mobile Header Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2636
+msgid "Mobile Header Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2644
+msgid "Mobile Header Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2652
+msgid "Logo Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:2676
+msgid "Mobile Header Logo Height"
+msgstr ""
+
+#: includes/options/sayen-options.php:2686
+msgid "Mobile Header Logo Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:2696
+msgid "Show Button Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2733
+msgid "Enable Top Header"
+msgstr ""
+
+#: includes/options/sayen-options.php:2742
+msgid "Enable Top Header Information"
+msgstr ""
+
+#: includes/options/sayen-options.php:2751
+msgid "Enable Top Header Social Links"
+msgstr ""
+
+#: includes/options/sayen-options.php:2760
+msgid "Mobile Menu Settings"
+msgstr ""
+
+#: includes/options/sayen-options.php:2762
+msgid "Set up your Mobile Responsive Menu"
+msgstr ""
+
+#: includes/options/sayen-options.php:2768
+msgid "Mobile Menu Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:2780
+msgid "Mobile Menu Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2788
+msgid "Mobile Menu Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2796
+msgid "Mobile Menu Border Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2815
+msgid "Single Post Page Configuration"
+msgstr ""
+
+#: includes/options/sayen-options.php:2820
+msgid "Gallery Image Number"
+msgstr ""
+
+#: includes/options/sayen-options.php:2831
+msgid "Post Layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2845
+msgid "Enable Next& Previous Post"
+msgstr ""
+
+#: includes/options/sayen-options.php:2854
+msgid "Enable About Author"
+msgstr ""
+
+#: includes/options/sayen-options.php:2855
+msgid "Show post author information"
+msgstr ""
+
+#: includes/options/sayen-options.php:2863
+msgid "Enable Social Share"
+msgstr ""
+
+#: includes/options/sayen-options.php:2871
+msgid "Enable Related Posts"
+msgstr ""
+
+#: includes/options/sayen-options.php:2879
+msgid "Blockquote Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2887
+msgid "Blockquote Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:2896
+msgid "Comment Layout"
+msgstr ""
+
+#: includes/options/sayen-options.php:2920
+msgid "Page Title Bar Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:2925
+msgid "Enable Title Bar"
+msgstr ""
+
+#: includes/options/sayen-options.php:2933
+msgid "Title Bar Height(px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:2944
+msgid "Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:2959
+msgid "Enable Title Bar On Home Page"
+msgstr ""
+
+#: includes/options/sayen-options.php:2968
+msgid "Title Bar Home Title"
+msgstr ""
+
+#: includes/options/sayen-options.php:2976
+msgid "Title Bar Home Breadcrumbs"
+msgstr ""
+
+#: includes/options/sayen-options.php:2983
+msgid "Border (px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3001
+msgid "Show Page Path"
+msgstr ""
+
+#: includes/options/sayen-options.php:3009
+msgid "Title Bar Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:3017
+#: includes/options/sayen-options.php:3035
+msgid "Title Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3025
+msgid "Title Size(px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3043
+msgid "Path Font Size(px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3062
+msgid "Top Sliding Bar Settings! A top page widgetized fixed area"
+msgstr ""
+
+#: includes/options/sayen-options.php:3067
+msgid "Enable Sliding Bar"
+msgstr ""
+
+#: includes/options/sayen-options.php:3075
+msgid "Sliding Content Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:3101
+msgid "Button Icon Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:3114
+msgid "Sliding Bar Columns"
+msgstr ""
+
+#: includes/options/sayen-options.php:3115
+msgid "Choose the number of columns for the Sliding Bar!"
+msgstr ""
+
+#: includes/options/sayen-options.php:3141
+#: includes/options/sayen-options.php:3576
+msgid "Column 1 Width (%)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3152
+#: includes/options/sayen-options.php:3586
+msgid "Column 2 Width (%)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3163
+#: includes/options/sayen-options.php:3596
+msgid "Column 3 Width (%)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3174
+#: includes/options/sayen-options.php:3606
+msgid "Column 4 Width (%)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3185
+msgid "Sliding Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:3208
+#: includes/options/sayen-options.php:3436
+msgid "Padding Option"
+msgstr ""
+
+#: includes/options/sayen-options.php:3220
+#: includes/options/sayen-options.php:3449
+#: includes/options/sayen-options.php:3632
+msgid "Text Font Size"
+msgstr ""
+
+#: includes/options/sayen-options.php:3230
+msgid "Sliding Bar Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3239
+msgid "Sliding Bar Widget Title Font Size"
+msgstr ""
+
+#: includes/options/sayen-options.php:3249
+msgid "Sliding Bar Widget Title Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3269
+msgid "Global Sidebar Settings"
+msgstr ""
+
+#: includes/options/sayen-options.php:3274
+msgid "Enable Sidebar On Home Page"
+msgstr ""
+
+#: includes/options/sayen-options.php:3283
+msgid "Home Sidebar Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:3284
+msgid "Choose the position for the Home Sidebar"
+msgstr ""
+
+#: includes/options/sayen-options.php:3295
+msgid "Enable Sidebar On Single Post"
+msgstr ""
+
+#: includes/options/sayen-options.php:3304
+msgid "Single Post Sidebar Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:3315
+msgid "Enable Sidebar On Archives Pages"
+msgstr ""
+
+#: includes/options/sayen-options.php:3324
+msgid "Archives Pages Sidebar Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:3335
+msgid "Enable Sidebar On Search Page"
+msgstr ""
+
+#: includes/options/sayen-options.php:3344
+msgid "Search Page Sidebar Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:3356
+msgid "Enable Sidebar BBpress Forum Home Page"
+msgstr ""
+
+#: includes/options/sayen-options.php:3365
+msgid "BBpress Home Page Sidebar Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:3376
+msgid "Enable Sidebar Woocommerce Shop Page"
+msgstr ""
+
+#: includes/options/sayen-options.php:3385
+msgid "Woocommerce Shop Sidebar Position"
+msgstr ""
+
+#: includes/options/sayen-options.php:3396
+msgid "Sidebar Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3405
+msgid "Sidebar Border Option"
+msgstr ""
+
+#: includes/options/sayen-options.php:3423
+msgid "Margin Option"
+msgstr ""
+
+#: includes/options/sayen-options.php:3458
+msgid "Sidebar Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3466
+msgid "Sidebar Widget Title Font Size"
+msgstr ""
+
+#: includes/options/sayen-options.php:3475
+msgid "Sidebar Widget Title Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3495
+msgid "Footer Section"
+msgstr ""
+
+#: includes/options/sayen-options.php:3500
+msgid "Enable Footer"
+msgstr ""
+
+#: includes/options/sayen-options.php:3501
+msgid "You can disable footer globally and yet Enable it on some pages!"
+msgstr ""
+
+#: includes/options/sayen-options.php:3509
+msgid "Footer Content Width"
+msgstr ""
+
+#: includes/options/sayen-options.php:3510
+msgid "Choose the footer content width"
+msgstr ""
+
+#: includes/options/sayen-options.php:3521
+msgid "Enable Footer Fixed Effect"
+msgstr ""
+
+#: includes/options/sayen-options.php:3522
+msgid "Creates a like parallax for the footer area."
+msgstr ""
+
+#: includes/options/sayen-options.php:3531
+msgid "Padding Top (px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3540
+msgid "Padding Bottom (px)"
+msgstr ""
+
+#: includes/options/sayen-options.php:3550
+msgid "Footer Columns"
+msgstr ""
+
+#: includes/options/sayen-options.php:3551
+msgid "Choose the number of columns for the footer!"
+msgstr ""
+
+#: includes/options/sayen-options.php:3616
+msgid "Footer Background"
+msgstr ""
+
+#: includes/options/sayen-options.php:3641
+msgid "Footer Text Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3649
+msgid "Footer Widget Title Font Size"
+msgstr ""
+
+#: includes/options/sayen-options.php:3658
+msgid "Footer Widget Title Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3667
+msgid "Footer Bottom"
+msgstr ""
+
+#: includes/options/sayen-options.php:3668
+msgid "This area will display Social Links and The footer Menu"
+msgstr ""
+
+#: includes/options/sayen-options.php:3676
+msgid "Footer Bottom Style"
+msgstr ""
+
+#: includes/options/sayen-options.php:3686
+msgid "Footer Background Background Color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3695
+msgid "Footer Bottom color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3704
+msgid "Footer Bottom area height"
+msgstr ""
+
+#: includes/options/sayen-options.php:3715
+msgid "Footer Bottom font size"
+msgstr ""
+
+#: includes/options/sayen-options.php:3728
+msgid "Footer Copy Right Area"
+msgstr ""
+
+#: includes/options/sayen-options.php:3736
+#: includes/options/sayen-options.php:3737
+msgid "Copyright Text"
+msgstr ""
+
+#: includes/options/sayen-options.php:3755
+msgid "Copyright area height"
+msgstr ""
+
+#: includes/options/sayen-options.php:3766
+msgid "Copyright area font size"
+msgstr ""
+
+#: includes/options/sayen-options.php:3777
+msgid "Copyright area background color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3786
+msgid "Copyright area text color"
+msgstr ""
+
+#: includes/options/sayen-options.php:3795
+msgid "Footer Text Aligment"
+msgstr ""
+
+#: includes/options/sayen-options.php:3814
+msgid "Social & Contact information "
+msgstr ""
+
+#: includes/options/sayen-options.php:3819
+msgid "Phone Number"
+msgstr ""
+
+#: includes/options/sayen-options.php:3825
+msgid "Email"
+msgstr ""
+
+#: includes/options/sayen-options.php:3832
+msgid "Enable Goolgle maps on Contact pages"
+msgstr ""
+
+#: includes/options/sayen-options.php:3841
+msgid "Address"
+msgstr ""
+
+#: includes/options/sayen-options.php:3849
+msgid "Map Zoom"
+msgstr ""
+
+#: includes/options/sayen-options.php:3862
+msgid "Facebook"
+msgstr ""
+
+#: includes/options/sayen-options.php:3869
+msgid "Twitter"
+msgstr ""
+
+#: includes/options/sayen-options.php:3876
+msgid "Youtube"
+msgstr ""
+
+#: includes/options/sayen-options.php:3883
+msgid "Linkedin"
+msgstr ""
+
+#: includes/options/sayen-options.php:3890
+msgid "Google Plus"
+msgstr ""
+
+#: includes/options/sayen-options.php:3897
+msgid "Instagram"
+msgstr ""
+
+#: includes/options/sayen-options.php:3904
+msgid "Github"
+msgstr ""
+
+#: includes/options/sayen-options.php:3911
+msgid "Pinterest"
+msgstr ""
+
+#: includes/options/sayen-options.php:3918
+msgid "Tumblr"
+msgstr ""
+
+#: includes/options/sayen-options.php:3925
+msgid "Behance"
+msgstr ""
+
+#: includes/options/sayen-options.php:3932
+msgid "Vimeo"
+msgstr ""
+
+#: includes/options/sayen-options.php:3939
+msgid "Flickr"
+msgstr ""
+
+#: includes/options/sayen-options.php:3946
+msgid "Soundcloud"
+msgstr ""
+
+#: includes/options/sayen-options.php:3961
+msgid "Apply custom typography for your website"
+msgstr ""
+
+#: includes/options/sayen-options.php:3966
+msgid "Enable Custom typography"
+msgstr ""
+
+#: includes/options/sayen-options.php:3974
+msgid "Header Font"
+msgstr ""
+
+#: includes/options/sayen-options.php:3987
+msgid "Header links custom font."
+msgstr ""
+
+#: includes/options/sayen-options.php:4004
+msgid "Drop Down Menu Font"
+msgstr ""
+
+#: includes/options/sayen-options.php:4016
+msgid "Custom font for the drop down menu links."
+msgstr ""
+
+#: includes/options/sayen-options.php:4034
+msgid "Mega Menu Font"
+msgstr ""
+
+#: includes/options/sayen-options.php:4046
+msgid "Custom font for the drop mega menu links."
+msgstr ""
+
+#: includes/options/sayen-options.php:4064
+msgid "Mega Menu Title Font"
+msgstr ""
+
+#: includes/options/sayen-options.php:4076
+msgid "Custom font for the drop mega menu Column titles."
+msgstr ""
+
+#: includes/options/sayen-options.php:4094
+msgid "Footer Widget Title"
+msgstr ""
+
+#: includes/options/sayen-options.php:4107
+msgid ""
+"Custom font for the footer widget titles you can chang the font size on the "
+"footer section."
+msgstr ""
+
+#: includes/options/sayen-options.php:4123
+msgid "Sidebar Widget Title"
+msgstr ""
+
+#: includes/options/sayen-options.php:4136
+msgid ""
+"Custom font for the Sidebar widget titles you can chang the font size on the "
+"Sidebar section."
+msgstr ""
+
+#: includes/options/sayen-options.php:4164
+msgid "Add Custom CSS styling & JavaScript"
+msgstr ""
+
+#: includes/options/sayen-options.php:4170
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options/sayen-options.php:4176
+msgid "Custom JavaScript"
+msgstr ""
+
+#: post-types/portfolio.php:47
+msgid "Portfolios"
+msgstr ""
+
+#: post-types/portfolio.php:48
+msgid "Portfolio"
+msgstr ""
+
+#: post-types/portfolio.php:49
+msgid "Add New"
+msgstr ""
+
+#: post-types/portfolio.php:50
+msgid "Add New Portfolio"
+msgstr ""
+
+#: post-types/portfolio.php:51
+msgid "Edit Portfolio"
+msgstr ""
+
+#: post-types/portfolio.php:52
+msgid "New Portfolio"
+msgstr ""
+
+#: post-types/portfolio.php:53
+msgid "All Portfolios"
+msgstr ""
+
+#: post-types/portfolio.php:54
+msgid "View Portfolio"
+msgstr ""
+
+#: post-types/portfolio.php:55
+msgid "Search Portfolio Projects"
+msgstr ""
+
+#: post-types/portfolio.php:56
+msgid "No portfolio found"
+msgstr ""
+
+#: post-types/portfolio.php:57
+msgid "No Portfolios found in the Trash"
+msgstr ""
+
+#: post-types/portfolio.php:96
+msgid "Categories"
+msgstr ""
+
+#: post-types/portfolio.php:97
+msgid "Category"
+msgstr ""
+
+#: post-types/portfolio.php:98 post-types/portfolio.php:125
+#: post-types/portfolio.php:155
+msgid "Search Types"
+msgstr ""
+
+#: post-types/portfolio.php:99
+msgid "All Categories"
+msgstr ""
+
+#: post-types/portfolio.php:100
+msgid "Parent Category"
+msgstr ""
+
+#: post-types/portfolio.php:101
+msgid "Parent Category:"
+msgstr ""
+
+#: post-types/portfolio.php:102
+msgid "Edit Categories"
+msgstr ""
+
+#: post-types/portfolio.php:103
+msgid "Update Category"
+msgstr ""
+
+#: post-types/portfolio.php:104
+msgid "Add New Category"
+msgstr ""
+
+#: post-types/portfolio.php:105
+msgid "New Category Name"
+msgstr ""
+
+#: post-types/portfolio.php:123
+msgid "Tags"
+msgstr ""
+
+#: post-types/portfolio.php:124
+msgid "Tag"
+msgstr ""
+
+#: post-types/portfolio.php:126
+msgid "All Tags"
+msgstr ""
+
+#: post-types/portfolio.php:127
+msgid "Parent Tag"
+msgstr ""
+
+#: post-types/portfolio.php:128
+msgid "Parent Tag:"
+msgstr ""
+
+#: post-types/portfolio.php:129
+msgid "Edit Tags"
+msgstr ""
+
+#: post-types/portfolio.php:130
+msgid "Update Tag"
+msgstr ""
+
+#: post-types/portfolio.php:131
+msgid "Add New Tag"
+msgstr ""
+
+#: post-types/portfolio.php:132
+msgid "New Tag Name"
+msgstr ""
+
+#: post-types/portfolio.php:153
+msgid "Skills"
+msgstr ""
+
+#: post-types/portfolio.php:154
+msgid "Skill"
+msgstr ""
+
+#: post-types/portfolio.php:156
+msgid "All Skills"
+msgstr ""
+
+#: post-types/portfolio.php:157
+msgid "Parent Skill"
+msgstr ""
+
+#: post-types/portfolio.php:158
+msgid "Parent Skill:"
+msgstr ""
+
+#: post-types/portfolio.php:159
+msgid "Edit Skills"
+msgstr ""
+
+#: post-types/portfolio.php:160
+msgid "Update Skill"
+msgstr ""
+
+#: post-types/portfolio.php:161
+msgid "Add New Skill"
+msgstr ""
+
+#: post-types/portfolio.php:162
+msgid "New Skill Name"
+msgstr ""
